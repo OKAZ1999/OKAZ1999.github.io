@@ -6,7 +6,7 @@
   <link href="www://example.com/atom.xml" rel="self"/>
   
   <link href="www://example.com/"/>
-  <updated>2021-07-20T07:05:38.597Z</updated>
+  <updated>2021-08-04T03:12:19.485Z</updated>
   <id>www://example.com/</id>
   
   <author>
@@ -15,6 +15,78 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2-二叉树的中序遍历</title>
+    <link href="www://example.com/2021/08/04/2-二叉树的中序遍历/"/>
+    <id>www://example.com/2021/08/04/2-二叉树的中序遍历/</id>
+    <published>2021-08-04T02:16:34.000Z</published>
+    <updated>2021-08-04T03:12:19.485Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="二叉树的中序遍历"><a href="#二叉树的中序遍历" class="headerlink" title="二叉树的中序遍历"></a><a href="https://leetcode-cn.com/problems/binary-tree-inorder-traversal/">二叉树的中序遍历</a></h4><p>给定一个二叉树的根节点 <code>root</code> ，返回它的 <strong>中序</strong> 遍历。</p><p><strong>方法一：递归</strong></p><p>时间复杂度O(n)，空间复杂度O(n)</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">inorder</span><span class="params">(TreeNode* root, vector&lt;<span class="keyword">int</span>&gt;&amp; res)</span></span>&#123;</span><br><span class="line"><span class="keyword">if</span>(!root)&#123;</span><br><span class="line"><span class="keyword">return</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="built_in">inorder</span>(root-&gt;left,res);</span><br><span class="line">res.<span class="built_in">push_back</span>(root-&gt;val);</span><br><span class="line"><span class="built_in">inorder</span>(root-&gt;right,res);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">vector&lt;<span class="keyword">int</span>&gt; <span class="title">inorderTraversal</span><span class="params">(TreeNode* root)</span></span>&#123;</span><br><span class="line">vector&lt;<span class="keyword">int</span>&gt; res;</span><br><span class="line"><span class="built_in">inorder</span>(root,res);</span><br><span class="line"><span class="keyword">return</span> res;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><strong>方法二：迭代</strong></p><p>时间复杂度O(n)，空间复杂度O(n)</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">vector&lt;<span class="keyword">int</span>&gt; <span class="title">inorderTraversal</span><span class="params">(TreeNode* root)</span></span>&#123;</span><br><span class="line">vector&lt;<span class="keyword">int</span>&gt; res;</span><br><span class="line">    stack&lt;TreeNode*&gt; stk;</span><br><span class="line">    <span class="keyword">while</span>(root!=<span class="literal">nullptr</span>||!stk.<span class="built_in">empty</span>())&#123;</span><br><span class="line">        <span class="keyword">while</span>(root!=<span class="literal">nullptr</span>)&#123;</span><br><span class="line">            stk.<span class="built_in">push</span>(root);</span><br><span class="line">            root=root-&gt;left;</span><br><span class="line">        &#125;</span><br><span class="line">        root = stk.<span class="built_in">top</span>();</span><br><span class="line">        stk.<span class="built_in">pop</span>();</span><br><span class="line">        res.<span class="built_in">push_back</span>(root-&gt;val);</span><br><span class="line">        root = root-&gt;right;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> res;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><strong>方法三：Morris中序遍历</strong></p><p>时间复杂度O(n)，空间复杂度O(1)</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">vector&lt;<span class="keyword">int</span>&gt; <span class="title">inorderTraversal</span><span class="params">(TreeNode* root)</span></span>&#123;</span><br><span class="line">    vector&lt;<span class="keyword">int</span>&gt; res;</span><br><span class="line">    TreeNode *predecessor = <span class="literal">nullptr</span>;</span><br><span class="line">    <span class="keyword">while</span>(root!=<span class="literal">nullptr</span>)&#123;</span><br><span class="line">        <span class="keyword">if</span>(root-&gt;left!=<span class="literal">nullptr</span>)&#123;</span><br><span class="line">            predecessor = root-&gt;left;</span><br><span class="line">            <span class="keyword">while</span>(predecessor-&gt;right!=<span class="literal">nullptr</span>&amp;&amp;predecessor-&gt;right!=root)&#123;</span><br><span class="line">                predecessor=predecessor-&gt;right;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span>(predecessor-&gt;right == <span class="literal">nullptr</span>)&#123;</span><br><span class="line">            predecessor-&gt;right = root;</span><br><span class="line">            root = root-&gt;left;</span><br><span class="line">        &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">            res.<span class="built_in">push_back</span>(root-&gt;val);</span><br><span class="line">            predecessor-&gt;rigjt=<span class="literal">nullptr</span>;</span><br><span class="line">            root=root-&gt;right;</span><br><span class="line">        &#125;</span><br><span class="line">        &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">            res.<span class="built_in">push_back</span>(root-&gt;val);</span><br><span class="line">            root=root-&gt;right;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> res;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;二叉树的中序遍历&quot;&gt;&lt;a href=&quot;#二叉树的中序遍历&quot; class=&quot;headerlink&quot; title=&quot;二叉树的中序遍历&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/binary-tree-inorder-</summary>
+      
+    
+    
+    
+    
+    <category term="LeetCode" scheme="www://example.com/tags/LeetCode/"/>
+    
+    <category term="Easy" scheme="www://example.com/tags/Easy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>1.x的平方根</title>
+    <link href="www://example.com/2021/08/03/1-x的平方根/"/>
+    <id>www://example.com/2021/08/03/1-x的平方根/</id>
+    <published>2021-08-03T02:57:01.000Z</published>
+    <updated>2021-08-04T03:21:42.105Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="x-的平方根"><a href="#x-的平方根" class="headerlink" title="x 的平方根"></a><a href="https://leetcode-cn.com/problems/sqrtx/">x 的平方根</a></h4><p>实现 int sqrt(int x) 函数。<br>计算并返回 x 的平方根，其中 x 是非负整数。<br>由于返回类型是整数，结果只保留整数的部分，小数部分将被舍去。</p><p><strong>方法一：袖珍计算器</strong></p><script type="math/tex; mode=display">\sqrt{x}=x^{\frac{1}{2}}=(e^{\ln x})^{\frac{1}{2}}=e^{\frac{\ln x}{2}}</script><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">mySqrt</span><span class="params">(<span class="keyword">int</span> x)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(x == <span class="number">0</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">int</span> ans = <span class="built_in">exp</span>(<span class="number">0.5</span>*<span class="built_in">log</span>(x));</span><br><span class="line">    <span class="keyword">return</span> ((<span class="keyword">long</span> <span class="keyword">long</span>)(ans+<span class="number">1</span>)*(ans+<span class="number">1</span>)&lt;=x?ans+<span class="number">1</span>:ans);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><strong>方法二：二分查找</strong></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">mySqrt</span><span class="params">(<span class="keyword">int</span> x)</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> l = <span class="number">0</span>, r = x, ans = <span class="number">-1</span>;</span><br><span class="line">    <span class="keyword">while</span>(l &lt;= r)&#123;</span><br><span class="line">        <span class="keyword">int</span> mid = l+(r-l)/<span class="number">2</span>;</span><br><span class="line">        <span class="keyword">if</span>((<span class="keyword">long</span> <span class="keyword">long</span>)mid*mid&lt;=x)&#123;</span><br><span class="line">            ans = mid;</span><br><span class="line">            l=mid+<span class="number">1</span>;</span><br><span class="line">        &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">            r=mid<span class="number">-1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> ans;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><strong>方法三：牛顿迭代法</strong></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">mySqrt</span><span class="params">(<span class="keyword">int</span> x)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(x == <span class="number">0</span>)&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">double</span> C=x,x0=x;</span><br><span class="line">    <span class="keyword">while</span>(<span class="literal">true</span>)&#123;</span><br><span class="line">        <span class="keyword">double</span> xi=<span class="number">0.5</span>*(x0+C/x0);</span><br><span class="line">        <span class="keyword">if</span>(<span class="built_in">fabs</span>(x0-xi)&lt;<span class="number">1e-7</span>)&#123;</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        x0=xi;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="built_in"><span class="keyword">int</span></span>(x0);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;x-的平方根&quot;&gt;&lt;a href=&quot;#x-的平方根&quot; class=&quot;headerlink&quot; title=&quot;x 的平方根&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/sqrtx/&quot;&gt;x 的平方根&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;</summary>
+      
+    
+    
+    
+    
+    <category term="LeetCode" scheme="www://example.com/tags/LeetCode/"/>
+    
+    <category term="Easy" scheme="www://example.com/tags/Easy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>面试</title>
+    <link href="www://example.com/2021/08/03/面试/"/>
+    <id>www://example.com/2021/08/03/面试/</id>
+    <published>2021-08-03T01:53:39.000Z</published>
+    <updated>2021-08-04T03:12:40.865Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="1-三次握手，四次挥手"><a href="#1-三次握手，四次挥手" class="headerlink" title="1. 三次握手，四次挥手"></a><strong>1. 三次握手，四次挥手</strong></h4><p><strong>第一步：</strong>客户端向服务器发送给TCP报文，SYN置为1，SEQ设置为一个随机数字,记为seq1<br><strong>第二步：</strong>服务器收到TCP报文后，发送TCP报文回复，SYN置为1，ACK置为1，SEQ设置为另一个随机数，记为seq2，SYNACK设置为seq1+1<br><strong>第三步：</strong>客户端收到报文后，返回TCP报文，SYN置为0，ACK置为1，SEQ置为seq1+1，ACK设置为seq2+1</p><p><em>为什么是三次握手而不是两次握手？</em><br>第三次握手是客户端告诉服务器，自己已经收到了第二条报文，可以开始传输数据。若没有第三次握手，服务器将无法保证客户端接收到了自己的SYNACK报文段，若此时SYNACK报文段丢失，客户端不知道服务器的初始序号，将无法处理之后到达客户端的数据</p><p><strong>第一步：</strong>客户端发送断开指令，即发送一个FIN置1的TCP报文<br><strong>第二步：</strong>服务器返回确认报文，ACK置1<br><strong>第三步：</strong>服务器发送TCP报文，FIN置1<br><strong>第四步：</strong>客户端接受报文，产生确认报文发送给服务器，服务器收到报文后，释放TCP连接相关资源，而客户端等待一段时间后，再释放资源</p><p><em>客户端为什么要等待一段时间再释放资源？</em></p><p>客户端接收到服务器发送的FIN报文后（第三次挥手），会回送一条确认报文（第四次挥手），但是，客户端并不知道这条确认报文是否可以顺利到达服务器。<br>TCP四次挥手完成后，理论上已经断开了连接，但是这不代表之前通过这条连接发送的所有数据都处理完毕了，有些可能还在网络中传输。</p><p><em>断开连接为什么需要四次挥手？</em><br>原因就是：TCP连接是全双工的。</p><h4 id="2-操作系统通信"><a href="#2-操作系统通信" class="headerlink" title="2.操作系统通信"></a><strong>2.操作系统通信</strong></h4><p><strong>管道：</strong>管道类似于一种特殊的文件(并不是)，它存在于内存中，进程可以对它进行读写，它提供流控制，保证进程的正确读写，即管道为空时读进程会阻塞，管道为满时写进程会阻塞，以此实现进程之间的通信。</p><p><strong>消息队列：</strong>类似于用链表的结构存储消息。</p><p><strong>套接字：</strong>套接字可用于不同机器间的进程通信，即可用于网络之间的进程通信。</p><p><strong>信号量：</strong> 信号量用于实现进程间的互斥与同步，而不是用于存储进程间通信数据。它是一个计数器，用来控制多个进程对共享资源的访问，常作为一种锁机制，实现进程间的同步和互斥</p><p><strong>共享内存：</strong>操作系统建立一块共享内存，并将其映射到参与通信的每个进程的地址空间上，进程就可以直接对这块共享内存进行读写。</p><h4 id="3-设计模式"><a href="#3-设计模式" class="headerlink" title="3.设计模式"></a><strong>3.设计模式</strong></h4><p>pass</p><h4 id="4-多态性"><a href="#4-多态性" class="headerlink" title="4.多态性"></a><strong>4.多态性</strong></h4><p>多态性是指用一个名字定义不同的函数，这些函数执行不同但又类似的操作，这样就可以用同一个函数名调用不同内容的函数</p><p>静态多态性：函数重载和运算符重载</p><p>动态多态性：虚函数与类继承</p><h4 id="5-能不能在构造函数和析构函数中用虚函数，会有什么后果"><a href="#5-能不能在构造函数和析构函数中用虚函数，会有什么后果" class="headerlink" title="5. 能不能在构造函数和析构函数中用虚函数，会有什么后果"></a><strong>5. 能不能在构造函数和析构函数中用虚函数，会有什么后果</strong></h4><p>可以，但是此时的虚函数和普通函数没有区别了。</p><p>6.new和delete和C语言里面的free和malloc的区别？</p><p>7.指针和引用的区别？</p><p>8.类里面的函数，每个实例都会创建一个函数吗，如果不，是怎么寻找的？</p><p>9.内存泄漏是什么，还有右值引用？</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;1-三次握手，四次挥手&quot;&gt;&lt;a href=&quot;#1-三次握手，四次挥手&quot; class=&quot;headerlink&quot; title=&quot;1. 三次握手，四次挥手&quot;&gt;&lt;/a&gt;&lt;strong&gt;1. 三次握手，四次挥手&lt;/strong&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;第一步：&lt;/s</summary>
+      
+    
+    
+    
+    
+    <category term="Interview" scheme="www://example.com/tags/Interview/"/>
+    
+    <category term="HUAWEI" scheme="www://example.com/tags/HUAWEI/"/>
+    
+  </entry>
   
   <entry>
     <title>Introduction</title>

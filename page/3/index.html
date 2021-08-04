@@ -23,27 +23,27 @@
   <meta name="description" content="随波逐流">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Day Dream">
-<meta property="og:url" content="www://example.com/categories/Introduction/index.html">
+<meta property="og:url" content="www://example.com/page/3/index.html">
 <meta property="og:site_name" content="Day Dream">
 <meta property="og:description" content="随波逐流">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="OKAZ">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="www://example.com/categories/Introduction/">
+<link rel="canonical" href="www://example.com/page/3/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome : false,
+    isHome : true,
     isPost : false,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>分类: Introduction | Day Dream</title>
+  <title>Day Dream</title>
   
 
 
@@ -164,52 +164,104 @@
         <div class="content-wrap">
           
 
-          <div class="content category">
+          <div class="content index posts-expand">
             
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="www://example.com/2021/08/03/面试/">
 
-  
-  
-  
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <h2 class="collection-header">Introduction
-          <small>分类</small>
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/portrait/me.jpg">
+      <meta itemprop="name" content="OKAZ">
+      <meta itemprop="description" content="随波逐流">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Day Dream">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/08/03/%E9%9D%A2%E8%AF%95/" class="post-title-link" itemprop="url">面试</a>
         </h2>
-      </div>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2021-08-03 09:53:39" itemprop="dateCreated datePublished" datetime="2021-08-03T09:53:39+08:00">2021-08-03</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-08-04 11:12:40" itemprop="dateModified" datetime="2021-08-04T11:12:40+08:00">2021-08-04</time>
+              </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>1.2k</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <span class="collection-header">2021</span>
+          <h4 id="1-三次握手，四次挥手"><a href="#1-三次握手，四次挥手" class="headerlink" title="1. 三次握手，四次挥手"></a><strong>1. 三次握手，四次挥手</strong></h4><p><strong>第一步：</strong>客户端向服务器发送给TCP报文，SYN置为1，SEQ设置为一个随机数字,记为seq1<br><strong>第二步：</strong>服务器收到TCP报文后，发送TCP报文回复，SYN置为1，ACK置为1，SEQ设置为另一个随机数，记为seq2，SYNACK设置为seq1+1<br><strong>第三步：</strong>客户端收到报文后，返回TCP报文，SYN置为0，ACK置为1，SEQ置为seq1+1，ACK设置为seq2+1</p>
+<p><em>为什么是三次握手而不是两次握手？</em><br>第三次握手是客户端告诉服务器，自己已经收到了第二条报文，可以开始传输数据。若没有第三次握手，服务器将无法保证客户端接收到了自己的SYNACK报文段，若此时SYNACK报文段丢失，客户端不知道服务器的初始序号，将无法处理之后到达客户端的数据</p>
+<p><strong>第一步：</strong>客户端发送断开指令，即发送一个FIN置1的TCP报文<br><strong>第二步：</strong>服务器返回确认报文，ACK置1<br><strong>第三步：</strong>服务器发送TCP报文，FIN置1<br><strong>第四步：</strong>客户端接受报文，产生确认报文发送给服务器，服务器收到报文后，释放TCP连接相关资源，而客户端等待一段时间后，再释放资源</p>
+<p><em>客户端为什么要等待一段时间再释放资源？</em></p>
+<p>客户端接收到服务器发送的FIN报文后（第三次挥手），会回送一条确认报文（第四次挥手），但是，客户端并不知道这条确认报文是否可以顺利到达服务器。<br>TCP四次挥手完成后，理论上已经断开了连接，但是这不代表之前通过这条连接发送的所有数据都处理完毕了，有些可能还在网络中传输。</p>
+<p><em>断开连接为什么需要四次挥手？</em><br>原因就是：TCP连接是全双工的。</p>
+<h4 id="2-操作系统通信"><a href="#2-操作系统通信" class="headerlink" title="2.操作系统通信"></a><strong>2.操作系统通信</strong></h4><p><strong>管道：</strong>管道类似于一种特殊的文件(并不是)，它存在于内存中，进程可以对它进行读写，它提供流控制，保证进程的正确读写，即管道为空时读进程会阻塞，管道为满时写进程会阻塞，以此实现进程之间的通信。</p>
+<p><strong>消息队列：</strong>类似于用链表的结构存储消息。</p>
+<p><strong>套接字：</strong>套接字可用于不同机器间的进程通信，即可用于网络之间的进程通信。</p>
+<p><strong>信号量：</strong> 信号量用于实现进程间的互斥与同步，而不是用于存储进程间通信数据。它是一个计数器，用来控制多个进程对共享资源的访问，常作为一种锁机制，实现进程间的同步和互斥</p>
+<p><strong>共享内存：</strong>操作系统建立一块共享内存，并将其映射到参与通信的每个进程的地址空间上，进程就可以直接对这块共享内存进行读写。</p>
+<h4 id="3-设计模式"><a href="#3-设计模式" class="headerlink" title="3.设计模式"></a><strong>3.设计模式</strong></h4><p>pass</p>
+<h4 id="4-多态性"><a href="#4-多态性" class="headerlink" title="4.多态性"></a><strong>4.多态性</strong></h4><p>多态性是指用一个名字定义不同的函数，这些函数执行不同但又类似的操作，这样就可以用同一个函数名调用不同内容的函数</p>
+<p>静态多态性：函数重载和运算符重载</p>
+<p>动态多态性：虚函数与类继承</p>
+<h4 id="5-能不能在构造函数和析构函数中用虚函数，会有什么后果"><a href="#5-能不能在构造函数和析构函数中用虚函数，会有什么后果" class="headerlink" title="5. 能不能在构造函数和析构函数中用虚函数，会有什么后果"></a><strong>5. 能不能在构造函数和析构函数中用虚函数，会有什么后果</strong></h4><p>可以，但是此时的虚函数和普通函数没有区别了。</p>
+<p>6.new和delete和C语言里面的free和malloc的区别？</p>
+<p>7.指针和引用的区别？</p>
+<p>8.类里面的函数，每个实例都会创建一个函数吗，如果不，是怎么寻找的？</p>
+<p>9.内存泄漏是什么，还有右值引用？</p>
+
+      
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-07-15T09:47:24+08:00"
-              content="2021-07-15">
-          07-15
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/07/15/Introduction/" itemprop="url">
-            <span itemprop="name">Introduction</span>
-          </a>
-      </div>
-
-    </header>
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
   </article>
-
-    </div>
-  </div>
   
   
   
 
+
   
+  <nav class="pagination">
+    <a class="extend prev" rel="prev" href="/page/2/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span><a class="page-number" href="/page/4/">4</a><a class="page-number" href="/page/5/">5</a><a class="extend next" rel="next" href="/page/4/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
+  </nav>
 
 
 

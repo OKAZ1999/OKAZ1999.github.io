@@ -20,30 +20,34 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="随波逐流">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Day Dream">
-<meta property="og:url" content="www://example.com/page/2/index.html">
+  <meta name="description" content="x 的平方根实现 int sqrt(int x) 函数。计算并返回 x 的平方根，其中 x 是非负整数。由于返回类型是整数，结果只保留整数的部分，小数部分将被舍去。 方法一：袖珍计算器  \sqrt{x}&#x3D;x^{\frac{1}{2}}&#x3D;(e^{\ln x})^{\frac{1}{2}}&#x3D;e^{\frac{\ln x}{2}}123456int mySqrt(int x)&amp;#123;    if(">
+<meta property="og:type" content="article">
+<meta property="og:title" content="1.x的平方根">
+<meta property="og:url" content="www://example.com/2021/08/03/1-x的平方根/index.html">
 <meta property="og:site_name" content="Day Dream">
-<meta property="og:description" content="随波逐流">
+<meta property="og:description" content="x 的平方根实现 int sqrt(int x) 函数。计算并返回 x 的平方根，其中 x 是非负整数。由于返回类型是整数，结果只保留整数的部分，小数部分将被舍去。 方法一：袖珍计算器  \sqrt{x}&#x3D;x^{\frac{1}{2}}&#x3D;(e^{\ln x})^{\frac{1}{2}}&#x3D;e^{\frac{\ln x}{2}}123456int mySqrt(int x)&amp;#123;    if(">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2021-08-03T02:57:01.000Z">
+<meta property="article:modified_time" content="2021-08-04T03:21:42.105Z">
 <meta property="article:author" content="OKAZ">
+<meta property="article:tag" content="LeetCode">
+<meta property="article:tag" content="Easy">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="www://example.com/page/2/">
+<link rel="canonical" href="www://example.com/2021/08/03/1-x的平方根/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome : true,
-    isPost : false,
+    isHome : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>Day Dream</title>
+  <title>1.x的平方根 | Day Dream</title>
   
 
 
@@ -164,9 +168,10 @@
         <div class="content-wrap">
           
 
-          <div class="content index posts-expand">
+          <div class="content post posts-expand">
             
-      
+
+    
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
@@ -182,10 +187,9 @@
       <meta itemprop="name" content="Day Dream">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/08/03/1-x%E7%9A%84%E5%B9%B3%E6%96%B9%E6%A0%B9/" class="post-title-link" itemprop="url">1.x的平方根</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          1.x的平方根
+        </h1>
 
         <div class="post-meta">
             <span class="post-meta-item">
@@ -222,7 +226,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h4 id="x-的平方根"><a href="#x-的平方根" class="headerlink" title="x 的平方根"></a><a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/sqrtx/">x 的平方根</a></h4><p>实现 int sqrt(int x) 函数。<br>计算并返回 x 的平方根，其中 x 是非负整数。<br>由于返回类型是整数，结果只保留整数的部分，小数部分将被舍去。</p>
+        <h4 id="x-的平方根"><a href="#x-的平方根" class="headerlink" title="x 的平方根"></a><a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/sqrtx/">x 的平方根</a></h4><p>实现 int sqrt(int x) 函数。<br>计算并返回 x 的平方根，其中 x 是非负整数。<br>由于返回类型是整数，结果只保留整数的部分，小数部分将被舍去。</p>
 <p><strong>方法一：袖珍计算器</strong></p>
 <script type="math/tex; mode=display">
 \sqrt{x}=x^{\frac{1}{2}}=(e^{\ln x})^{\frac{1}{2}}=e^{\frac{\ln x}{2}}</script><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">mySqrt</span><span class="params">(<span class="keyword">int</span> x)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(x == <span class="number">0</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">int</span> ans = <span class="built_in">exp</span>(<span class="number">0.5</span>*<span class="built_in">log</span>(x));</span><br><span class="line">    <span class="keyword">return</span> ((<span class="keyword">long</span> <span class="keyword">long</span>)(ans+<span class="number">1</span>)*(ans+<span class="number">1</span>)&lt;=x?ans+<span class="number">1</span>:ans);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -231,25 +235,70 @@
 <p><strong>方法三：牛顿迭代法</strong></p>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">mySqrt</span><span class="params">(<span class="keyword">int</span> x)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(x == <span class="number">0</span>)&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">double</span> C=x,x0=x;</span><br><span class="line">    <span class="keyword">while</span>(<span class="literal">true</span>)&#123;</span><br><span class="line">        <span class="keyword">double</span> xi=<span class="number">0.5</span>*(x0+C/x0);</span><br><span class="line">        <span class="keyword">if</span>(<span class="built_in">fabs</span>(x0-xi)&lt;<span class="number">1e-7</span>)&#123;</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        x0=xi;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="built_in"><span class="keyword">int</span></span>(x0);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-      
     </div>
 
     
     
     
+        <div class="reward-container">
+  <div>有钱人给点吧，ORZ</div>
+  <button onclick="var qr = document.getElementById('qr'); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+    打赏
+  </button>
+  <div id="qr" style="display: none;">
+      
+      <div style="display: inline-block;">
+        <img src="/images/wechatpay.jpg" alt="OKAZ 微信支付">
+        <p>微信支付</p>
+      </div>
+
+  </div>
+</div>
+
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>OKAZ
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="www://example.com/2021/08/03/1-x的平方根/" title="1.x的平方根">www://example.com/2021/08/03/1-x的平方根/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+
       <footer class="post-footer">
-        <div class="post-eof"></div>
+          <div class="post-tags">
+              <a href="/tags/LeetCode/" rel="tag"># LeetCode</a>
+              <a href="/tags/Easy/" rel="tag"># Easy</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2021/08/03/%E9%9D%A2%E8%AF%95/" rel="prev" title="面试">
+      <i class="fa fa-chevron-left"></i> 面试
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2021/08/04/2-%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86/" rel="next" title="2-二叉树的中序遍历">
+      2-二叉树的中序遍历 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
       </footer>
+    
   </article>
   
   
   
-
-
-  
-  <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><span class="space">&hellip;</span><a class="page-number" href="/page/5/">5</a><a class="extend next" rel="next" href="/page/3/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
-  </nav>
 
 
 
@@ -301,6 +350,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#x-%E7%9A%84%E5%B9%B3%E6%96%B9%E6%A0%B9"><span class="nav-text">x 的平方根</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
