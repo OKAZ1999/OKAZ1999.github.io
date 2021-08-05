@@ -6,7 +6,7 @@
   <link href="www://example.com/atom.xml" rel="self"/>
   
   <link href="www://example.com/"/>
-  <updated>2021-08-05T02:02:57.700Z</updated>
+  <updated>2021-08-05T02:42:44.498Z</updated>
   <id>www://example.com/</id>
   
   <author>
@@ -15,6 +15,203 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>12-环形链表</title>
+    <link href="www://example.com/2021/08/05/12-环形链表/"/>
+    <id>www://example.com/2021/08/05/12-环形链表/</id>
+    <published>2021-08-05T02:42:44.000Z</published>
+    <updated>2021-08-05T02:42:44.498Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id=""><a href="#" class="headerlink" title=""></a><a href="www.//https://okaz1999.github.io/"></a></h4><p><strong>方法一：</strong></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;a href=&quot;www.//https://okaz1999.github.io/&quot;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;方法一：&lt;/strong&gt;&lt;/p&gt;
+&lt;fig</summary>
+      
+    
+    
+    
+    
+    <category term="LeetCode" scheme="www://example.com/tags/LeetCode/"/>
+    
+    <category term="Easy" scheme="www://example.com/tags/Easy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>11-买股票最好时机</title>
+    <link href="www://example.com/2021/08/05/11-买股票最好时机/"/>
+    <id>www://example.com/2021/08/05/11-买股票最好时机/</id>
+    <published>2021-08-05T02:42:27.000Z</published>
+    <updated>2021-08-05T02:42:27.988Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id=""><a href="#" class="headerlink" title=""></a><a href="www.//https://okaz1999.github.io/"></a></h4><p><strong>方法一：</strong></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;a href=&quot;www.//https://okaz1999.github.io/&quot;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;方法一：&lt;/strong&gt;&lt;/p&gt;
+&lt;fig</summary>
+      
+    
+    
+    
+    
+    <category term="LeetCode" scheme="www://example.com/tags/LeetCode/"/>
+    
+    <category term="Easy" scheme="www://example.com/tags/Easy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>10-杨辉三角II</title>
+    <link href="www://example.com/2021/08/05/10-杨辉三角II/"/>
+    <id>www://example.com/2021/08/05/10-杨辉三角II/</id>
+    <published>2021-08-05T02:42:14.000Z</published>
+    <updated>2021-08-05T02:42:14.398Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id=""><a href="#" class="headerlink" title=""></a><a href="www.//https://okaz1999.github.io/"></a></h4><p><strong>方法一：</strong></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;a href=&quot;www.//https://okaz1999.github.io/&quot;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;方法一：&lt;/strong&gt;&lt;/p&gt;
+&lt;fig</summary>
+      
+    
+    
+    
+    
+    <category term="LeetCode" scheme="www://example.com/tags/LeetCode/"/>
+    
+    <category term="Easy" scheme="www://example.com/tags/Easy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>9-杨辉三角</title>
+    <link href="www://example.com/2021/08/05/9-杨辉三角/"/>
+    <id>www://example.com/2021/08/05/9-杨辉三角/</id>
+    <published>2021-08-05T02:42:04.000Z</published>
+    <updated>2021-08-05T02:42:04.339Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id=""><a href="#" class="headerlink" title=""></a><a href="www.//https://okaz1999.github.io/"></a></h4><p><strong>方法一：</strong></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;a href=&quot;www.//https://okaz1999.github.io/&quot;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;方法一：&lt;/strong&gt;&lt;/p&gt;
+&lt;fig</summary>
+      
+    
+    
+    
+    
+    <category term="LeetCode" scheme="www://example.com/tags/LeetCode/"/>
+    
+    <category term="Easy" scheme="www://example.com/tags/Easy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>8-总路径总和</title>
+    <link href="www://example.com/2021/08/05/8-总路径总和/"/>
+    <id>www://example.com/2021/08/05/8-总路径总和/</id>
+    <published>2021-08-05T02:41:49.000Z</published>
+    <updated>2021-08-05T03:30:51.788Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id=""><a href="#" class="headerlink" title=""></a><a href="www.//https://okaz1999.github.io/"></a></h4><p><strong>方法一：</strong></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure><p>：<a href="https://justforfun9991.coding.net/p/justforfun9991">https://justforfun9991.coding.net/p/justforfun9991</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;a href=&quot;www.//https://okaz1999.github.io/&quot;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;方法一：&lt;/strong&gt;&lt;/p&gt;
+&lt;fig</summary>
+      
+    
+    
+    
+    
+    <category term="LeetCode" scheme="www://example.com/tags/LeetCode/"/>
+    
+    <category term="Easy" scheme="www://example.com/tags/Easy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>7-二叉树最小深度</title>
+    <link href="www://example.com/2021/08/05/7-二叉树最小深度/"/>
+    <id>www://example.com/2021/08/05/7-二叉树最小深度/</id>
+    <published>2021-08-05T02:41:29.000Z</published>
+    <updated>2021-08-05T03:12:00.419Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="二叉树最小深度"><a href="#二叉树最小深度" class="headerlink" title="二叉树最小深度"></a><a href="https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/">二叉树最小深度</a></h4><p><strong>方法一：深度优先搜索</strong></p><p>时间复杂度O(n)，空间复杂度O(h)</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">minDepth</span><span class="params">(TreeNode *root)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(!root)</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">if</span>(!root-&gt;left &amp;&amp; !root-&gt;right)</span><br><span class="line">        <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">int</span> min_depth = INT_MAX;</span><br><span class="line">    <span class="keyword">if</span>(root-&gt;left)</span><br><span class="line">        min_depth = <span class="built_in">min</span>(<span class="built_in">minDepth</span>(root-&gt;left, min_depth));</span><br><span class="line">    <span class="keyword">if</span>(root-&gt;right)</span><br><span class="line">        min_depth = <span class="built_in">min</span>(<span class="built_in">minDepth</span>(root-&gt;right, min_depth));</span><br><span class="line">    <span class="keyword">return</span> min_depth + <span class="number">1</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>方法二：广度优先搜索</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">minDepth</span><span class="params">(TreeNode * root)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(root==<span class="literal">nullptr</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    queue&lt;pair&lt;TreeNode*, <span class="keyword">int</span>&gt; &gt; que;</span><br><span class="line">    que.<span class="built_in">emplace</span>(root, <span class="number">1</span>);</span><br><span class="line">    <span class="keyword">while</span>(!que.<span class="built_in">empty</span>())&#123;</span><br><span class="line">        TreeNode* node = que.<span class="built_in">front</span>().first;</span><br><span class="line">        <span class="keyword">int</span> depth = que.<span class="built_in">front</span>().sectond;</span><br><span class="line">        que.<span class="built_in">pop</span>();</span><br><span class="line">        <span class="keyword">if</span>(node-&gt;left == <span class="literal">nullptr</span> &amp;&amp; node-&gt;right == <span class="literal">nullptr</span>)</span><br><span class="line">            <span class="keyword">return</span> depth;</span><br><span class="line">        <span class="keyword">if</span>(node-&gt;left != <span class="literal">nullptr</span>)</span><br><span class="line">            que.<span class="built_in">emplace</span>(node-&gt;left,depth+<span class="number">1</span>);</span><br><span class="line">        <span class="keyword">if</span>(node-&gt;right!= <span class="literal">nullptr</span>)</span><br><span class="line">            que.<span class="built_in">emplace</span>(node-&gt;right,depth+<span class="number">1</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;二叉树最小深度&quot;&gt;&lt;a href=&quot;#二叉树最小深度&quot; class=&quot;headerlink&quot; title=&quot;二叉树最小深度&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/minimum-depth-of-binary</summary>
+      
+    
+    
+    
+    
+    <category term="LeetCode" scheme="www://example.com/tags/LeetCode/"/>
+    
+    <category term="Easy" scheme="www://example.com/tags/Easy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>6-平衡二叉树</title>
+    <link href="www://example.com/2021/08/05/6-平衡二叉树/"/>
+    <id>www://example.com/2021/08/05/6-平衡二叉树/</id>
+    <published>2021-08-05T02:20:59.000Z</published>
+    <updated>2021-08-05T02:49:19.796Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="平衡二叉树"><a href="#平衡二叉树" class="headerlink" title="平衡二叉树"></a><a href="https://leetcode-cn.com/problems/balanced-binary-tree/">平衡二叉树</a></h4><p><strong>方法一：自顶向下递归</strong></p><p>时间复杂度O($n^2$)，空间复杂度O(n)</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">height</span><span class="params">(TreeNode *root)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(root == <span class="literal">nullptr</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">        <span class="keyword">return</span> <span class="built_in">max</span>(<span class="built_in">height</span>(root-&gt;left),<span class="built_in">height</span>(root-&gt;right));</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">isBalanced</span><span class="params">(TreeNode* root)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(root == <span class="literal">nullptr</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">        <span class="keyword">return</span> <span class="built_in">abs</span>(<span class="built_in">height</span>(root-&gt;left)-<span class="built_in">height</span>(root-&gt;right))&lt;=<span class="number">1</span> &amp;&amp; <span class="built_in">isBalanced</span>(root-&gt;left) &amp;&amp; <span class="built_in">isBalanced</span>(root-&gt;right);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><strong>方法二：自底向上递归</strong></p><p>时间复杂度O(n)，空间复杂度O(n)</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">height</span><span class="params">(TreeNode *root)</span></span>&#123;</span><br><span class="line"><span class="keyword">if</span>(root == <span class="literal">nullptr</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">int</span> leftHeight = <span class="built_in">height</span>(root-&gt;left);</span><br><span class="line">    <span class="keyword">int</span> rightHeight = <span class="built_in">height</span>(root-&gt;right);</span><br><span class="line">    <span class="keyword">if</span>(leftHeight == <span class="number">-1</span>||rightHeight == <span class="number">-1</span> || <span class="built_in">abs</span>(leftHeight - rightHeight)&gt;<span class="number">1</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="number">-1</span>;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">        <span class="keyword">return</span> <span class="built_in">max</span>(leftHeight,rightHeight)+<span class="number">1</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">isBalanced</span><span class="params">(TreeNode * root)</span></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">height</span>(root) &gt;=<span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;平衡二叉树&quot;&gt;&lt;a href=&quot;#平衡二叉树&quot; class=&quot;headerlink&quot; title=&quot;平衡二叉树&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/balanced-binary-tree/&quot;&gt;平衡二叉树&lt;</summary>
+      
+    
+    
+    
+    
+    <category term="LeetCode" scheme="www://example.com/tags/LeetCode/"/>
+    
+    <category term="Easy" scheme="www://example.com/tags/Easy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>5-有序数组转二叉树</title>
+    <link href="www://example.com/2021/08/05/5-有序数组转二叉树/"/>
+    <id>www://example.com/2021/08/05/5-有序数组转二叉树/</id>
+    <published>2021-08-05T02:14:14.000Z</published>
+    <updated>2021-08-05T02:20:07.974Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="有序数组转二叉树"><a href="#有序数组转二叉树" class="headerlink" title="有序数组转二叉树"></a><a href="https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/">有序数组转二叉树</a></h4><p><strong>方法一：选择中间位置左边数字</strong></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">TreeNode* <span class="title">sortArrayToBST</span><span class="params">(vector&lt;<span class="keyword">int</span>&gt;&amp; nums)</span></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">helper</span>(nums,<span class="number">0</span>,nums.<span class="built_in">size</span>()<span class="number">-1</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="function">TreeNode* <span class="title">helper</span><span class="params">(vector&lt;<span class="keyword">int</span>&gt;&amp; nums, <span class="keyword">int</span> left, <span class="keyword">int</span> right)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(left&gt;right)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">nullptr</span>;</span><br><span class="line">    <span class="keyword">int</span> mid = (left+right)/<span class="number">2</span>;</span><br><span class="line">    TreeNode* root = <span class="keyword">new</span> <span class="built_in">TreeNode</span>(nums[mid]);</span><br><span class="line">    root-&gt;left = <span class="built_in">helper</span>(nums,left,mid<span class="number">-1</span>);</span><br><span class="line">    root-&gt;right = <span class="built_in">helper</span>(nums,mid+<span class="number">1.</span>right);</span><br><span class="line">    <span class="keyword">return</span> root;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;有序数组转二叉树&quot;&gt;&lt;a href=&quot;#有序数组转二叉树&quot; class=&quot;headerlink&quot; title=&quot;有序数组转二叉树&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/convert-sorted-array</summary>
+      
+    
+    
+    
+    
+    <category term="LeetCode" scheme="www://example.com/tags/LeetCode/"/>
+    
+    <category term="Easy" scheme="www://example.com/tags/Easy/"/>
+    
+  </entry>
   
   <entry>
     <title>4-对称二叉树</title>
