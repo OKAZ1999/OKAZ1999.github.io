@@ -20,30 +20,34 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="随波逐流">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Day Dream">
-<meta property="og:url" content="www://example.com/page/3/index.html">
+  <meta name="description" content="相同的树给你两棵二叉树的根节点 p 和 q ，编写一个函数来检验这两棵树是否相同。 方法一：深度优先搜索： 时间复杂度O(min(m,n))，空间复杂度O(min(m,n)) 12345678910bool isSameTree(TreeNode* p, TreeNode* q)&amp;#123;    if(p&#x3D;&#x3D;nullptr&amp;&amp;q&#x3D;&#x3D;nullptr)        return t">
+<meta property="og:type" content="article">
+<meta property="og:title" content="3-相同的树">
+<meta property="og:url" content="www://example.com/2021/08/05/3-相同的树/index.html">
 <meta property="og:site_name" content="Day Dream">
-<meta property="og:description" content="随波逐流">
+<meta property="og:description" content="相同的树给你两棵二叉树的根节点 p 和 q ，编写一个函数来检验这两棵树是否相同。 方法一：深度优先搜索： 时间复杂度O(min(m,n))，空间复杂度O(min(m,n)) 12345678910bool isSameTree(TreeNode* p, TreeNode* q)&amp;#123;    if(p&#x3D;&#x3D;nullptr&amp;&amp;q&#x3D;&#x3D;nullptr)        return t">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2021-08-05T01:21:14.000Z">
+<meta property="article:modified_time" content="2021-08-05T01:47:29.402Z">
 <meta property="article:author" content="OKAZ">
+<meta property="article:tag" content="LeetCode">
+<meta property="article:tag" content="Easy">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="www://example.com/page/3/">
+<link rel="canonical" href="www://example.com/2021/08/05/3-相同的树/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome : true,
-    isPost : false,
+    isHome : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>Day Dream</title>
+  <title>3-相同的树 | Day Dream</title>
   
 
 
@@ -162,13 +166,14 @@
         <div class="content-wrap">
           
 
-          <div class="content index posts-expand">
+          <div class="content post posts-expand">
             
-      
+
+    
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="www://example.com/2021/08/04/2-二叉树的中序遍历/">
+    <link itemprop="mainEntityOfPage" href="www://example.com/2021/08/05/3-相同的树/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/portrait/me.jpg">
@@ -180,10 +185,9 @@
       <meta itemprop="name" content="Day Dream">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/08/04/2-%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86/" class="post-title-link" itemprop="url">2-二叉树的中序遍历</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          3-相同的树
+        </h1>
 
         <div class="post-meta">
             <span class="post-meta-item">
@@ -193,7 +197,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2021-08-04 10:16:34 / 修改时间：11:12:19" itemprop="dateCreated datePublished" datetime="2021-08-04T10:16:34+08:00">2021-08-04</time>
+              <time title="创建时间：2021-08-05 09:21:14 / 修改时间：09:47:29" itemprop="dateCreated datePublished" datetime="2021-08-05T09:21:14+08:00">2021-08-05</time>
             </span>
 
           <br>
@@ -202,7 +206,7 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>1.4k</span>
+              <span>1.2k</span>
             </span>
 
         </div>
@@ -214,36 +218,78 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h4 id="二叉树的中序遍历"><a href="#二叉树的中序遍历" class="headerlink" title="二叉树的中序遍历"></a><a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/binary-tree-inorder-traversal/">二叉树的中序遍历</a></h4><p>给定一个二叉树的根节点 <code>root</code> ，返回它的 <strong>中序</strong> 遍历。</p>
-<p><strong>方法一：递归</strong></p>
-<p>时间复杂度O(n)，空间复杂度O(n)</p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">inorder</span><span class="params">(TreeNode* root, vector&lt;<span class="keyword">int</span>&gt;&amp; res)</span></span>&#123;</span><br><span class="line">	<span class="keyword">if</span>(!root)&#123;</span><br><span class="line">		<span class="keyword">return</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="built_in">inorder</span>(root-&gt;left,res);</span><br><span class="line">	res.<span class="built_in">push_back</span>(root-&gt;val);</span><br><span class="line">	<span class="built_in">inorder</span>(root-&gt;right,res);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">vector&lt;<span class="keyword">int</span>&gt; <span class="title">inorderTraversal</span><span class="params">(TreeNode* root)</span></span>&#123;</span><br><span class="line">	vector&lt;<span class="keyword">int</span>&gt; res;</span><br><span class="line">	<span class="built_in">inorder</span>(root,res);</span><br><span class="line">	<span class="keyword">return</span> res;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p><strong>方法二：迭代</strong></p>
-<p>时间复杂度O(n)，空间复杂度O(n)</p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">vector&lt;<span class="keyword">int</span>&gt; <span class="title">inorderTraversal</span><span class="params">(TreeNode* root)</span></span>&#123;</span><br><span class="line">	vector&lt;<span class="keyword">int</span>&gt; res;</span><br><span class="line">    stack&lt;TreeNode*&gt; stk;</span><br><span class="line">    <span class="keyword">while</span>(root!=<span class="literal">nullptr</span>||!stk.<span class="built_in">empty</span>())&#123;</span><br><span class="line">        <span class="keyword">while</span>(root!=<span class="literal">nullptr</span>)&#123;</span><br><span class="line">            stk.<span class="built_in">push</span>(root);</span><br><span class="line">            root=root-&gt;left;</span><br><span class="line">        &#125;</span><br><span class="line">        root = stk.<span class="built_in">top</span>();</span><br><span class="line">        stk.<span class="built_in">pop</span>();</span><br><span class="line">        res.<span class="built_in">push_back</span>(root-&gt;val);</span><br><span class="line">        root = root-&gt;right;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> res;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p><strong>方法三：Morris中序遍历</strong></p>
-<p>时间复杂度O(n)，空间复杂度O(1)</p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">vector&lt;<span class="keyword">int</span>&gt; <span class="title">inorderTraversal</span><span class="params">(TreeNode* root)</span></span>&#123;</span><br><span class="line">    vector&lt;<span class="keyword">int</span>&gt; res;</span><br><span class="line">    TreeNode *predecessor = <span class="literal">nullptr</span>;</span><br><span class="line">    <span class="keyword">while</span>(root!=<span class="literal">nullptr</span>)&#123;</span><br><span class="line">        <span class="keyword">if</span>(root-&gt;left!=<span class="literal">nullptr</span>)&#123;</span><br><span class="line">            predecessor = root-&gt;left;</span><br><span class="line">            <span class="keyword">while</span>(predecessor-&gt;right!=<span class="literal">nullptr</span>&amp;&amp;predecessor-&gt;right!=root)&#123;</span><br><span class="line">                predecessor=predecessor-&gt;right;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span>(predecessor-&gt;right == <span class="literal">nullptr</span>)&#123;</span><br><span class="line">            	predecessor-&gt;right = root;</span><br><span class="line">            	root = root-&gt;left;</span><br><span class="line">        	&#125;<span class="keyword">else</span>&#123;</span><br><span class="line">            	res.<span class="built_in">push_back</span>(root-&gt;val);</span><br><span class="line">            	predecessor-&gt;rigjt=<span class="literal">nullptr</span>;</span><br><span class="line">            	root=root-&gt;right;</span><br><span class="line">        	&#125;</span><br><span class="line">        &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">            res.<span class="built_in">push_back</span>(root-&gt;val);</span><br><span class="line">            root=root-&gt;right;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> res;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+        <h4 id="相同的树"><a href="#相同的树" class="headerlink" title="相同的树"></a><a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/same-tree/">相同的树</a></h4><p>给你两棵二叉树的根节点 <code>p</code> 和 <code>q</code> ，编写一个函数来检验这两棵树是否相同。</p>
+<p><strong>方法一：深度优先搜索：</strong></p>
+<p>时间复杂度O(min(m,n))，空间复杂度O(min(m,n))</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">isSameTree</span><span class="params">(TreeNode* p, TreeNode* q)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(p==<span class="literal">nullptr</span>&amp;&amp;q==<span class="literal">nullptr</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span>(p==<span class="literal">nullptr</span>||q==<span class="literal">nullptr</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span>(p-&gt;val!=q-&gt;val)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">        <span class="keyword">return</span> <span class="built_in">isSameTree</span>(p-&gt;left,q-&gt;left)&amp;&amp;<span class="built_in">isSameTree</span>(p-&gt;right,q-&gt;right);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><strong>方法二：广度优先搜索：</strong></p>
+<p>时间复杂度O(min(m,n))，空间复杂度O(min(m,n))</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">isSameTree</span><span class="params">(TreeNode*p, TreeNode* q)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(p == <span class="literal">nullptr</span> &amp;&amp; q == <span class="literal">nullptr</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span>(p == <span class="literal">nullptr</span> || q == <span class="literal">nullptr</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    queue&lt;TreeNode*&gt; queue1, queue2;</span><br><span class="line">    queue1.<span class="built_in">push</span>(p);</span><br><span class="line">    queue2.<span class="built_in">push</span>(q);</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">while</span>(!queue1.<span class="built_in">empty</span>()&amp;&amp;!queue2.<span class="built_in">empty</span>())&#123;</span><br><span class="line">        <span class="keyword">auto</span> node1 = queue1.<span class="built_in">front</span>();</span><br><span class="line">        queue1.<span class="built_in">pop</span>();</span><br><span class="line">        <span class="keyword">auto</span> node2 = queue2.<span class="built_in">front</span>();</span><br><span class="line">        queue2.<span class="built_in">pop</span>();</span><br><span class="line">        <span class="keyword">if</span>(node1-&gt;val!=node2-&gt;val)</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">        <span class="keyword">auto</span> left1 = node1-&gt;left, right1 = node1-&gt;right, left2 = node2-&gt;left, right2 = node2-&gt;right;</span><br><span class="line">        <span class="keyword">if</span> ((left1 == <span class="literal">nullptr</span>) ^ (left2 == <span class="literal">nullptr</span>))</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">        <span class="keyword">if</span> ((right1 == <span class="literal">nullptr</span>) ^ (right2 == <span class="literal">nullptr</span>))</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">        <span class="keyword">if</span>(left1!=<span class="literal">nullptr</span>)</span><br><span class="line">            queue1.<span class="built_in">push</span>(left1);</span><br><span class="line">        <span class="keyword">if</span>(right1!=<span class="literal">nullptr</span>)</span><br><span class="line">            queue1.<span class="built_in">push</span>(right1);</span><br><span class="line">        <span class="keyword">if</span>(left2!=<span class="literal">nullptr</span>)</span><br><span class="line">            queue2.<span class="built_in">push</span>(left1);</span><br><span class="line">        <span class="keyword">if</span>(right2!=<span class="literal">nullptr</span>)</span><br><span class="line">            queue2.<span class="built_in">push</span>(right1);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> queue1.<span class="built_in">empty</span>()&amp;&amp;queue2.<span class="built_in">empty</span>();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-      
     </div>
 
     
     
     
+        <div class="reward-container">
+  <div>有钱人给点吧，ORZ</div>
+  <button onclick="var qr = document.getElementById('qr'); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+    打赏
+  </button>
+  <div id="qr" style="display: none;">
+      
+      <div style="display: inline-block;">
+        <img src="/images/wechatpay.jpg" alt="OKAZ 微信支付">
+        <p>微信支付</p>
+      </div>
+
+  </div>
+</div>
+
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>OKAZ
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="www://example.com/2021/08/05/3-相同的树/" title="3-相同的树">www://example.com/2021/08/05/3-相同的树/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+
       <footer class="post-footer">
-        <div class="post-eof"></div>
+          <div class="post-tags">
+              <a href="/tags/LeetCode/" rel="tag"># LeetCode</a>
+              <a href="/tags/Easy/" rel="tag"># Easy</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2021/08/04/2-%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86/" rel="prev" title="2-二叉树的中序遍历">
+      <i class="fa fa-chevron-left"></i> 2-二叉树的中序遍历
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2021/08/05/4-%E5%AF%B9%E7%A7%B0%E4%BA%8C%E5%8F%89%E6%A0%91/" rel="next" title="4-对称二叉树">
+      4-对称二叉树 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
       </footer>
+    
   </article>
   
   
   
-
-
-  
-  <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/2/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span><a class="page-number" href="/page/4/">4</a><span class="space">&hellip;</span><a class="page-number" href="/page/6/">6</a><a class="extend next" rel="next" href="/page/4/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
-  </nav>
 
 
 
@@ -295,6 +341,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%9B%B8%E5%90%8C%E7%9A%84%E6%A0%91"><span class="nav-text">相同的树</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
