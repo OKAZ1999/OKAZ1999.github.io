@@ -168,7 +168,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="www://example.com/2021/08/03/面试/">
+    <link itemprop="mainEntityOfPage" href="www://example.com/2021/08/06/13-最小栈/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/portrait/me.jpg">
@@ -182,7 +182,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2021/08/03/%E9%9D%A2%E8%AF%95/" class="post-title-link" itemprop="url">面试</a>
+            <a href="/2021/08/06/13-%E6%9C%80%E5%B0%8F%E6%A0%88/" class="post-title-link" itemprop="url">13-最小栈</a>
         </h2>
 
         <div class="post-meta">
@@ -192,14 +192,14 @@
               </span>
               <span class="post-meta-item-text">发表于</span>
 
-              <time title="创建时间：2021-08-03 09:53:39" itemprop="dateCreated datePublished" datetime="2021-08-03T09:53:39+08:00">2021-08-03</time>
+              <time title="创建时间：2021-08-06 11:22:25" itemprop="dateCreated datePublished" datetime="2021-08-06T11:22:25+08:00">2021-08-06</time>
             </span>
               <span class="post-meta-item">
                 <span class="post-meta-item-icon">
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-08-04 11:12:40" itemprop="dateModified" datetime="2021-08-04T11:12:40+08:00">2021-08-04</time>
+                <time title="修改时间：2021-08-07 09:22:02" itemprop="dateModified" datetime="2021-08-07T09:22:02+08:00">2021-08-07</time>
               </span>
 
           <br>
@@ -208,7 +208,7 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>1.2k</span>
+              <span>396</span>
             </span>
 
         </div>
@@ -220,26 +220,9 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h4 id="1-三次握手，四次挥手"><a href="#1-三次握手，四次挥手" class="headerlink" title="1. 三次握手，四次挥手"></a><strong>1. 三次握手，四次挥手</strong></h4><p><strong>第一步：</strong>客户端向服务器发送给TCP报文，SYN置为1，SEQ设置为一个随机数字,记为seq1<br><strong>第二步：</strong>服务器收到TCP报文后，发送TCP报文回复，SYN置为1，ACK置为1，SEQ设置为另一个随机数，记为seq2，SYNACK设置为seq1+1<br><strong>第三步：</strong>客户端收到报文后，返回TCP报文，SYN置为0，ACK置为1，SEQ置为seq1+1，ACK设置为seq2+1</p>
-<p><em>为什么是三次握手而不是两次握手？</em><br>第三次握手是客户端告诉服务器，自己已经收到了第二条报文，可以开始传输数据。若没有第三次握手，服务器将无法保证客户端接收到了自己的SYNACK报文段，若此时SYNACK报文段丢失，客户端不知道服务器的初始序号，将无法处理之后到达客户端的数据</p>
-<p><strong>第一步：</strong>客户端发送断开指令，即发送一个FIN置1的TCP报文<br><strong>第二步：</strong>服务器返回确认报文，ACK置1<br><strong>第三步：</strong>服务器发送TCP报文，FIN置1<br><strong>第四步：</strong>客户端接受报文，产生确认报文发送给服务器，服务器收到报文后，释放TCP连接相关资源，而客户端等待一段时间后，再释放资源</p>
-<p><em>客户端为什么要等待一段时间再释放资源？</em></p>
-<p>客户端接收到服务器发送的FIN报文后（第三次挥手），会回送一条确认报文（第四次挥手），但是，客户端并不知道这条确认报文是否可以顺利到达服务器。<br>TCP四次挥手完成后，理论上已经断开了连接，但是这不代表之前通过这条连接发送的所有数据都处理完毕了，有些可能还在网络中传输。</p>
-<p><em>断开连接为什么需要四次挥手？</em><br>原因就是：TCP连接是全双工的。</p>
-<h4 id="2-操作系统通信"><a href="#2-操作系统通信" class="headerlink" title="2.操作系统通信"></a><strong>2.操作系统通信</strong></h4><p><strong>管道：</strong>管道类似于一种特殊的文件(并不是)，它存在于内存中，进程可以对它进行读写，它提供流控制，保证进程的正确读写，即管道为空时读进程会阻塞，管道为满时写进程会阻塞，以此实现进程之间的通信。</p>
-<p><strong>消息队列：</strong>类似于用链表的结构存储消息。</p>
-<p><strong>套接字：</strong>套接字可用于不同机器间的进程通信，即可用于网络之间的进程通信。</p>
-<p><strong>信号量：</strong> 信号量用于实现进程间的互斥与同步，而不是用于存储进程间通信数据。它是一个计数器，用来控制多个进程对共享资源的访问，常作为一种锁机制，实现进程间的同步和互斥</p>
-<p><strong>共享内存：</strong>操作系统建立一块共享内存，并将其映射到参与通信的每个进程的地址空间上，进程就可以直接对这块共享内存进行读写。</p>
-<h4 id="3-设计模式"><a href="#3-设计模式" class="headerlink" title="3.设计模式"></a><strong>3.设计模式</strong></h4><p>pass</p>
-<h4 id="4-多态性"><a href="#4-多态性" class="headerlink" title="4.多态性"></a><strong>4.多态性</strong></h4><p>多态性是指用一个名字定义不同的函数，这些函数执行不同但又类似的操作，这样就可以用同一个函数名调用不同内容的函数</p>
-<p>静态多态性：函数重载和运算符重载</p>
-<p>动态多态性：虚函数与类继承</p>
-<h4 id="5-能不能在构造函数和析构函数中用虚函数，会有什么后果"><a href="#5-能不能在构造函数和析构函数中用虚函数，会有什么后果" class="headerlink" title="5. 能不能在构造函数和析构函数中用虚函数，会有什么后果"></a><strong>5. 能不能在构造函数和析构函数中用虚函数，会有什么后果</strong></h4><p>可以，但是此时的虚函数和普通函数没有区别了。</p>
-<p>6.new和delete和C语言里面的free和malloc的区别？</p>
-<p>7.指针和引用的区别？</p>
-<p>8.类里面的函数，每个实例都会创建一个函数吗，如果不，是怎么寻找的？</p>
-<p>9.内存泄漏是什么，还有右值引用？</p>
+          <h4 id="最小栈"><a href="#最小栈" class="headerlink" title="最小栈"></a><a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/min-stack/">最小栈</a></h4><p><strong>方法一：</strong></p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">MinStack</span> &#123;</span></span><br><span class="line">    stack&lt;<span class="keyword">int</span>&gt; x_stack;</span><br><span class="line">    stack&lt;<span class="keyword">int</span>&gt; min_stack;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="built_in">MinStack</span>() &#123;</span><br><span class="line">        min_stack.<span class="built_in">push</span>(INT_MAX);</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">push</span><span class="params">(<span class="keyword">int</span> x)</span> </span>&#123;</span><br><span class="line">        x_stack.<span class="built_in">push</span>(x);</span><br><span class="line">        min_stack.<span class="built_in">push</span>(<span class="built_in">min</span>(min_stack.<span class="built_in">top</span>(), x));</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">pop</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        x_stack.<span class="built_in">pop</span>();</span><br><span class="line">        min_stack.<span class="built_in">pop</span>();</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">top</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> x_stack.<span class="built_in">top</span>();</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">getMin</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> min_stack.<span class="built_in">top</span>();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
 
       
     </div>
@@ -258,7 +241,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/12/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/12/">12</a><span class="page-number current">13</span><a class="page-number" href="/page/14/">14</a><a class="extend next" rel="next" href="/page/14/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
+    <a class="extend prev" rel="prev" href="/page/12/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/12/">12</a><span class="page-number current">13</span><a class="page-number" href="/page/14/">14</a><span class="space">&hellip;</span><a class="page-number" href="/page/27/">27</a><a class="extend next" rel="next" href="/page/14/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
   </nav>
 
 
@@ -326,7 +309,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">14</span>
+          <span class="site-state-item-count">27</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -391,7 +374,7 @@
       <i class="fa fa-chart-area"></i>
     </span>
       <span class="post-meta-item-text">站点总字数：</span>
-    <span title="站点总字数">10k</span>
+    <span title="站点总字数">11k</span>
 </div>
 <script color="238,130,238" opacity="0.8" zIndex="-1" count="137" src="https://cdn.jsdelivr.net/npm/canvas-nest.js@1/dist/canvas-nest.js"></script>
 
@@ -448,6 +431,61 @@
   
 
   
+      
+
+<script>
+  if (typeof MathJax === 'undefined') {
+    window.MathJax = {
+      loader: {
+          load: ['[tex]/mhchem'],
+        source: {
+          '[tex]/amsCd': '[tex]/amscd',
+          '[tex]/AMScd': '[tex]/amscd'
+        }
+      },
+      tex: {
+        inlineMath: {'[+]': [['$', '$']]},
+          packages: {'[+]': ['mhchem']},
+        tags: 'ams'
+      },
+      options: {
+        renderActions: {
+          findScript: [10, doc => {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+              const display = !!node.type.match(/; *mode=display/);
+              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+              const text = document.createTextNode('');
+              node.parentNode.replaceChild(text, node);
+              math.start = {node: text, delim: '', n: 0};
+              math.end = {node: text, delim: '', n: 0};
+              doc.math.push(math);
+            });
+          }, '', false],
+          insertedScript: [200, () => {
+            document.querySelectorAll('mjx-container').forEach(node => {
+              let target = node.parentNode;
+              if (target.nodeName.toLowerCase() === 'li') {
+                target.parentNode.classList.add('has-jax');
+              }
+            });
+          }, '', false]
+        }
+      }
+    };
+    (function () {
+      var script = document.createElement('script');
+      script.src = '//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
+      script.defer = true;
+      document.head.appendChild(script);
+    })();
+  } else {
+    MathJax.startup.document.state(0);
+    MathJax.texReset();
+    MathJax.typeset();
+  }
+</script>
+
+    
 
   
 

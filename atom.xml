@@ -6,7 +6,7 @@
   <link href="www://example.com/atom.xml" rel="self"/>
   
   <link href="www://example.com/"/>
-  <updated>2021-08-06T03:05:49.768Z</updated>
+  <updated>2021-08-07T02:55:19.553Z</updated>
   <id>www://example.com/</id>
   
   <author>
@@ -17,19 +17,340 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>25-回文链表</title>
+    <link href="www://example.com/2021/08/07/25-回文链表/"/>
+    <id>www://example.com/2021/08/07/25-回文链表/</id>
+    <published>2021-08-07T02:55:19.000Z</published>
+    <updated>2021-08-07T02:55:19.553Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id=""><a href="#" class="headerlink" title=""></a><a href="www.//https://okaz1999.github.io/"></a></h4><p><strong>方法一：</strong></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;a href=&quot;www.//https://okaz1999.github.io/&quot;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;方法一：&lt;/strong&gt;&lt;/p&gt;
+&lt;fig</summary>
+      
+    
+    
+    
+    
+    <category term="LeetCode" scheme="www://example.com/tags/LeetCode/"/>
+    
+    <category term="Easy" scheme="www://example.com/tags/Easy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>24-用栈实现队列</title>
+    <link href="www://example.com/2021/08/07/24-用栈实现队列/"/>
+    <id>www://example.com/2021/08/07/24-用栈实现队列/</id>
+    <published>2021-08-07T02:54:02.000Z</published>
+    <updated>2021-08-07T02:54:02.439Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id=""><a href="#" class="headerlink" title=""></a><a href="www.//https://okaz1999.github.io/"></a></h4><p><strong>方法一：</strong></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;a href=&quot;www.//https://okaz1999.github.io/&quot;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;方法一：&lt;/strong&gt;&lt;/p&gt;
+&lt;fig</summary>
+      
+    
+    
+    
+    
+    <category term="LeetCode" scheme="www://example.com/tags/LeetCode/"/>
+    
+    <category term="Easy" scheme="www://example.com/tags/Easy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>23-2的幂</title>
+    <link href="www://example.com/2021/08/07/23-2的幂/"/>
+    <id>www://example.com/2021/08/07/23-2的幂/</id>
+    <published>2021-08-07T02:53:36.000Z</published>
+    <updated>2021-08-07T02:53:36.859Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id=""><a href="#" class="headerlink" title=""></a><a href="www.//https://okaz1999.github.io/"></a></h4><p><strong>方法一：</strong></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;a href=&quot;www.//https://okaz1999.github.io/&quot;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;方法一：&lt;/strong&gt;&lt;/p&gt;
+&lt;fig</summary>
+      
+    
+    
+    
+    
+    <category term="LeetCode" scheme="www://example.com/tags/LeetCode/"/>
+    
+    <category term="Easy" scheme="www://example.com/tags/Easy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>22-用队列实现栈</title>
+    <link href="www://example.com/2021/08/07/22-用队列实现栈/"/>
+    <id>www://example.com/2021/08/07/22-用队列实现栈/</id>
+    <published>2021-08-07T02:45:54.000Z</published>
+    <updated>2021-08-07T02:45:54.844Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id=""><a href="#" class="headerlink" title=""></a><a href="www.//https://okaz1999.github.io/"></a></h4><p><strong>方法一：</strong></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;a href=&quot;www.//https://okaz1999.github.io/&quot;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;方法一：&lt;/strong&gt;&lt;/p&gt;
+&lt;fig</summary>
+      
+    
+    
+    
+    
+    <category term="LeetCode" scheme="www://example.com/tags/LeetCode/"/>
+    
+    <category term="Easy" scheme="www://example.com/tags/Easy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>21-存在重复元素II</title>
+    <link href="www://example.com/2021/08/07/21-存在重复元素II/"/>
+    <id>www://example.com/2021/08/07/21-存在重复元素II/</id>
+    <published>2021-08-07T02:35:58.000Z</published>
+    <updated>2021-08-07T02:35:58.563Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id=""><a href="#" class="headerlink" title=""></a><a href="www.//https://okaz1999.github.io/"></a></h4><p><strong>方法一：</strong></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;a href=&quot;www.//https://okaz1999.github.io/&quot;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;方法一：&lt;/strong&gt;&lt;/p&gt;
+&lt;fig</summary>
+      
+    
+    
+    
+    
+    <category term="LeetCode" scheme="www://example.com/tags/LeetCode/"/>
+    
+    <category term="Easy" scheme="www://example.com/tags/Easy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>20-同构字符串</title>
+    <link href="www://example.com/2021/08/07/20-同构字符串/"/>
+    <id>www://example.com/2021/08/07/20-同构字符串/</id>
+    <published>2021-08-07T02:35:24.000Z</published>
+    <updated>2021-08-07T02:35:24.188Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id=""><a href="#" class="headerlink" title=""></a><a href="www.//https://okaz1999.github.io/"></a></h4><p><strong>方法一：</strong></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;a href=&quot;www.//https://okaz1999.github.io/&quot;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;方法一：&lt;/strong&gt;&lt;/p&gt;
+&lt;fig</summary>
+      
+    
+    
+    
+    
+    <category term="LeetCode" scheme="www://example.com/tags/LeetCode/"/>
+    
+    <category term="Easy" scheme="www://example.com/tags/Easy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>19-计数质数</title>
+    <link href="www://example.com/2021/08/07/19-计数质数/"/>
+    <id>www://example.com/2021/08/07/19-计数质数/</id>
+    <published>2021-08-07T02:33:27.000Z</published>
+    <updated>2021-08-07T02:33:27.544Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id=""><a href="#" class="headerlink" title=""></a><a href="www.//https://okaz1999.github.io/"></a></h4><p><strong>方法一：</strong></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;a href=&quot;www.//https://okaz1999.github.io/&quot;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;方法一：&lt;/strong&gt;&lt;/p&gt;
+&lt;fig</summary>
+      
+    
+    
+    
+    
+    <category term="LeetCode" scheme="www://example.com/tags/LeetCode/"/>
+    
+    <category term="Easy" scheme="www://example.com/tags/Easy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>18-移除链表元素</title>
+    <link href="www://example.com/2021/08/07/18-移除链表元素/"/>
+    <id>www://example.com/2021/08/07/18-移除链表元素/</id>
+    <published>2021-08-07T02:32:30.000Z</published>
+    <updated>2021-08-07T02:32:30.364Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id=""><a href="#" class="headerlink" title=""></a><a href="www.//https://okaz1999.github.io/"></a></h4><p><strong>方法一：</strong></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;a href=&quot;www.//https://okaz1999.github.io/&quot;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;方法一：&lt;/strong&gt;&lt;/p&gt;
+&lt;fig</summary>
+      
+    
+    
+    
+    
+    <category term="LeetCode" scheme="www://example.com/tags/LeetCode/"/>
+    
+    <category term="Easy" scheme="www://example.com/tags/Easy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>17-快乐数</title>
+    <link href="www://example.com/2021/08/07/17-快乐数/"/>
+    <id>www://example.com/2021/08/07/17-快乐数/</id>
+    <published>2021-08-07T02:29:12.000Z</published>
+    <updated>2021-08-07T02:29:12.555Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id=""><a href="#" class="headerlink" title=""></a><a href="www.//https://okaz1999.github.io/"></a></h4><p><strong>方法一：</strong></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;a href=&quot;www.//https://okaz1999.github.io/&quot;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;方法一：&lt;/strong&gt;&lt;/p&gt;
+&lt;fig</summary>
+      
+    
+    
+    
+    
+    <category term="LeetCode" scheme="www://example.com/tags/LeetCode/"/>
+    
+    <category term="Easy" scheme="www://example.com/tags/Easy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>16-阶乘后的零</title>
+    <link href="www://example.com/2021/08/07/16-阶乘后的零/"/>
+    <id>www://example.com/2021/08/07/16-阶乘后的零/</id>
+    <published>2021-08-07T02:22:52.000Z</published>
+    <updated>2021-08-07T02:22:52.962Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id=""><a href="#" class="headerlink" title=""></a><a href="www.//https://okaz1999.github.io/"></a></h4><p><strong>方法一：</strong></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;a href=&quot;www.//https://okaz1999.github.io/&quot;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;方法一：&lt;/strong&gt;&lt;/p&gt;
+&lt;fig</summary>
+      
+    
+    
+    
+    
+    <category term="LeetCode" scheme="www://example.com/tags/LeetCode/"/>
+    
+    <category term="Easy" scheme="www://example.com/tags/Easy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>15-两数之和II</title>
+    <link href="www://example.com/2021/08/06/15-两数之和II/"/>
+    <id>www://example.com/2021/08/06/15-两数之和II/</id>
+    <published>2021-08-06T03:28:13.000Z</published>
+    <updated>2021-08-07T01:47:40.864Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="两数之和"><a href="#两数之和" class="headerlink" title="两数之和"></a><a href="https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/">两数之和</a></h4><p><strong>方法一：二分搜索</strong></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">vector&lt;<span class="keyword">int</span>&gt; <span class="title">twoSum</span><span class="params">(vector&lt;<span class="keyword">int</span>&gt;&amp; numbers, <span class="keyword">int</span> target)</span></span>&#123;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;numbers.<span class="built_in">size</span>()<span class="number">-1</span>;++i)&#123;</span><br><span class="line">        <span class="keyword">int</span> low = i+<span class="number">1</span>, high = numbers.<span class="built_in">size</span>()<span class="number">-1</span>;</span><br><span class="line">        <span class="keyword">while</span>(low&lt;=high)&#123;</span><br><span class="line">            <span class="keyword">int</span> mid = (hight-low)/<span class="number">2</span> +low;</span><br><span class="line">            <span class="keyword">if</span>(number[mid] == target-number[i])</span><br><span class="line">                <span class="keyword">return</span> &#123;i+<span class="number">1</span>,mid+<span class="number">1</span>&#125;;</span><br><span class="line">            <span class="keyword">else</span> <span class="keyword">if</span>(numbers[mid]&gt;target-numbers[i])</span><br><span class="line">                high = mid <span class="number">-1</span>;</span><br><span class="line">            <span class="keyword">else</span></span><br><span class="line">                low = mid +<span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> &#123;<span class="number">-1</span>,<span class="number">-1</span>&#125;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><strong>方法二：双指针</strong></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">vector&lt;<span class="keyword">int</span>&gt; <span class="title">twoSum</span><span class="params">(vector&lt;<span class="keyword">int</span>&gt;&amp; numbers, <span class="keyword">int</span> target)</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> low=<span class="number">0</span>, high=numbser.<span class="built_in">size</span>()<span class="number">-1</span>;</span><br><span class="line">    <span class="keyword">while</span>(low&lt;high)&#123;</span><br><span class="line">        <span class="keyword">int</span> sum = numbers[low]+numbers[high];</span><br><span class="line">        <span class="keyword">if</span>(sum == target)&#123;</span><br><span class="line">            <span class="keyword">return</span>&#123;low+<span class="number">1</span>,high+<span class="number">1</span>&#125;;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span>(sum&lt;target)</span><br><span class="line">            ++low;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">            --high;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> &#123;<span class="number">-1</span>,<span class="number">-1</span>&#125;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;两数之和&quot;&gt;&lt;a href=&quot;#两数之和&quot; class=&quot;headerlink&quot; title=&quot;两数之和&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted</summary>
+      
+    
+    
+    
+    
+    <category term="LeetCode" scheme="www://example.com/tags/LeetCode/"/>
+    
+    <category term="Easy" scheme="www://example.com/tags/Easy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>14-相交链表</title>
+    <link href="www://example.com/2021/08/06/14-相交链表/"/>
+    <id>www://example.com/2021/08/06/14-相交链表/</id>
+    <published>2021-08-06T03:23:02.000Z</published>
+    <updated>2021-08-07T01:48:15.821Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="相交链表"><a href="#相交链表" class="headerlink" title="相交链表"></a><a href="https://leetcode-cn.com/problems/intersection-of-two-linked-lists/">相交链表</a></h4><p><strong>方法一：哈希表</strong></p><p>略</p><p><strong>方法二：双指针</strong></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">ListNode* <span class="title">getIntersectionNode</span><span class="params">(ListNode* headA, ListNode* headB)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(!headA || !headB)&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">nullptr</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    ListNode *pA = headA, *pB = headB;</span><br><span class="line">    <span class="keyword">while</span>(pA != pB)&#123;</span><br><span class="line">         pA = pA == <span class="literal">nullptr</span> ? headB : pA-&gt;next;</span><br><span class="line">         pB = pB == <span class="literal">nullptr</span> ? headA : pB-&gt;next;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;相交链表&quot;&gt;&lt;a href=&quot;#相交链表&quot; class=&quot;headerlink&quot; title=&quot;相交链表&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/intersection-of-two-linked-lists</summary>
+      
+    
+    
+    
+    
+    <category term="LeetCode" scheme="www://example.com/tags/LeetCode/"/>
+    
+    <category term="Easy" scheme="www://example.com/tags/Easy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>13-最小栈</title>
+    <link href="www://example.com/2021/08/06/13-最小栈/"/>
+    <id>www://example.com/2021/08/06/13-最小栈/</id>
+    <published>2021-08-06T03:22:25.000Z</published>
+    <updated>2021-08-07T01:22:02.293Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="最小栈"><a href="#最小栈" class="headerlink" title="最小栈"></a><a href="https://leetcode-cn.com/problems/min-stack/">最小栈</a></h4><p><strong>方法一：</strong></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">MinStack</span> &#123;</span></span><br><span class="line">    stack&lt;<span class="keyword">int</span>&gt; x_stack;</span><br><span class="line">    stack&lt;<span class="keyword">int</span>&gt; min_stack;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="built_in">MinStack</span>() &#123;</span><br><span class="line">        min_stack.<span class="built_in">push</span>(INT_MAX);</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">push</span><span class="params">(<span class="keyword">int</span> x)</span> </span>&#123;</span><br><span class="line">        x_stack.<span class="built_in">push</span>(x);</span><br><span class="line">        min_stack.<span class="built_in">push</span>(<span class="built_in">min</span>(min_stack.<span class="built_in">top</span>(), x));</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">pop</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        x_stack.<span class="built_in">pop</span>();</span><br><span class="line">        min_stack.<span class="built_in">pop</span>();</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">top</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> x_stack.<span class="built_in">top</span>();</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">getMin</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> min_stack.<span class="built_in">top</span>();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;最小栈&quot;&gt;&lt;a href=&quot;#最小栈&quot; class=&quot;headerlink&quot; title=&quot;最小栈&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/min-stack/&quot;&gt;最小栈&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;</summary>
+      
+    
+    
+    
+    
+    <category term="LeetCode" scheme="www://example.com/tags/LeetCode/"/>
+    
+    <category term="Easy" scheme="www://example.com/tags/Easy/"/>
+    
+  </entry>
+  
+  <entry>
     <title>12-环形链表</title>
     <link href="www://example.com/2021/08/05/12-环形链表/"/>
     <id>www://example.com/2021/08/05/12-环形链表/</id>
     <published>2021-08-05T02:42:44.000Z</published>
-    <updated>2021-08-06T03:05:49.768Z</updated>
+    <updated>2021-08-07T01:52:59.504Z</updated>
     
-    <content type="html"><![CDATA[<h4 id=""><a href="#" class="headerlink" title=""></a><a href="www.//https://okaz1999.github.io/"></a></h4><p><strong>方法一：哈希表</strong></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">hasCycle</span><span class="params">(ListNode *head)</span></span>&#123;</span><br><span class="line">    unordered_set&lt;ListNode*&gt; seen;</span><br><span class="line">    <span class="keyword">while</span>(!head)&#123;</span><br><span class="line">        <span class="keyword">if</span>(seen.<span class="built_in">count</span>(head))</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">        seen.<span class="built_in">insert</span>(head);</span><br><span class="line">        head=head-&gt;next;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><strong>方法二：快慢指针</strong></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">hasCycle</span><span class="params">(ListNode* head)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(!head||!head-&gt;next)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    ListNode* slow = head;</span><br><span class="line">    ListNode* fast = head-&gt;next;</span><br><span class="line">    <span class="keyword">while</span>(slow!=fast)&#123;</span><br><span class="line">        <span class="keyword">if</span>(!fast||!fast-&gt;next)</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">        slow=slow-&gt;next;</span><br><span class="line">        fast=fast-&gt;next;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>方法三：</p><p><img src="../images/image-20210806110521256.png" alt="image-20210806110521256"></p>]]></content>
+    <content type="html"><![CDATA[<h4 id="环形链表"><a href="#环形链表" class="headerlink" title="环形链表"></a><a href="https://leetcode-cn.com/problems/linked-list-cycle">环形链表</a></h4><p><strong>方法一：哈希表</strong></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">hasCycle</span><span class="params">(ListNode *head)</span></span>&#123;</span><br><span class="line">    unordered_set&lt;ListNode*&gt; seen;</span><br><span class="line">    <span class="keyword">while</span>(!head)&#123;</span><br><span class="line">        <span class="keyword">if</span>(seen.<span class="built_in">count</span>(head))</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">        seen.<span class="built_in">insert</span>(head);</span><br><span class="line">        head=head-&gt;next;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><strong>方法二：快慢指针</strong></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">hasCycle</span><span class="params">(ListNode* head)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(!head||!head-&gt;next)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    ListNode* slow = head;</span><br><span class="line">    ListNode* fast = head-&gt;next;</span><br><span class="line">    <span class="keyword">while</span>(slow!=fast)&#123;</span><br><span class="line">        <span class="keyword">if</span>(!fast||!fast-&gt;next)</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">        slow=slow-&gt;next;</span><br><span class="line">        fast=fast-&gt;next;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><strong>方法三：</strong></p><p><img src="../images/image-20210806110728165.png" alt="image-20210806110728165"></p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h4 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;a href=&quot;www.//https://okaz1999.github.io/&quot;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;方法一：哈希表&lt;/strong&gt;&lt;/p&gt;
-&lt;</summary>
+    <summary type="html">&lt;h4 id=&quot;环形链表&quot;&gt;&lt;a href=&quot;#环形链表&quot; class=&quot;headerlink&quot; title=&quot;环形链表&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/linked-list-cycle&quot;&gt;环形链表&lt;/a&gt;&lt;/h4&gt;</summary>
       
     
     
@@ -46,15 +367,14 @@
     <link href="www://example.com/2021/08/05/11-买股票最好时机/"/>
     <id>www://example.com/2021/08/05/11-买股票最好时机/</id>
     <published>2021-08-05T02:42:27.000Z</published>
-    <updated>2021-08-06T02:23:14.109Z</updated>
+    <updated>2021-08-07T01:52:24.595Z</updated>
     
-    <content type="html"><![CDATA[<h4 id=""><a href="#" class="headerlink" title=""></a><a href="www.//https://okaz1999.github.io/"></a></h4><p><strong>方法一：贪心</strong></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">maxProfit</span><span class="params">(vector&lt;<span class="keyword">int</span>&gt;&amp; prices)</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> minPrice = INT_MIN; </span><br><span class="line">    <span class="keyword">int</span> maxProfit = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> price : prices)&#123;</span><br><span class="line">        minPrice=<span class="built_in">min</span>(minPrice,price);</span><br><span class="line">        maxProfit=<span class="built_in">max</span>(maxProfit,price-minPrice);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> maxPrice;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h4 id="买股票最佳时机"><a href="#买股票最佳时机" class="headerlink" title="买股票最佳时机"></a><a href="https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/">买股票最佳时机</a></h4><p><strong>方法一：贪心</strong></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">maxProfit</span><span class="params">(vector&lt;<span class="keyword">int</span>&gt;&amp; prices)</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> minPrice = INT_MIN; </span><br><span class="line">    <span class="keyword">int</span> maxProfit = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> price : prices)&#123;</span><br><span class="line">        minPrice=<span class="built_in">min</span>(minPrice,price);</span><br><span class="line">        maxProfit=<span class="built_in">max</span>(maxProfit,price-minPrice);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> maxPrice;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
     
     
       
       
-    <summary type="html">&lt;h4 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;a href=&quot;www.//https://okaz1999.github.io/&quot;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;方法一：贪心&lt;/strong&gt;&lt;/p&gt;
-&lt;f</summary>
+    <summary type="html">&lt;h4 id=&quot;买股票最佳时机&quot;&gt;&lt;a href=&quot;#买股票最佳时机&quot; class=&quot;headerlink&quot; title=&quot;买股票最佳时机&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/best-time-to-buy-and-se</summary>
       
     
     
@@ -71,15 +391,14 @@
     <link href="www://example.com/2021/08/05/10-杨辉三角II/"/>
     <id>www://example.com/2021/08/05/10-杨辉三角II/</id>
     <published>2021-08-05T02:42:14.000Z</published>
-    <updated>2021-08-06T02:09:28.808Z</updated>
+    <updated>2021-08-07T01:52:05.914Z</updated>
     
-    <content type="html"><![CDATA[<h4 id=""><a href="#" class="headerlink" title=""></a><a href="www.//https://okaz1999.github.io/"></a></h4><p><strong>方法一：滚动数组</strong></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function">vector&lt;<span class="keyword">int</span>&gt; <span class="title">getRow</span><span class="params">(<span class="keyword">int</span> rowIndex)</span> </span>&#123;</span><br><span class="line">        vector&lt;<span class="keyword">int</span>&gt; pre, cur;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt;= rowIndex; ++i) &#123;</span><br><span class="line">            cur.<span class="built_in">resize</span>(i + <span class="number">1</span>);</span><br><span class="line">            cur[<span class="number">0</span>] = cur[i] = <span class="number">1</span>;</span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> j = <span class="number">1</span>; j &lt; i; ++j) &#123;</span><br><span class="line">                cur[j] = pre[j - <span class="number">1</span>] + pre[j];</span><br><span class="line">            &#125;</span><br><span class="line">            pre = cur;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> pre;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure><p>单数组优化</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">vector&lt;<span class="keyword">int</span>&gt; <span class="title">getRow</span><span class="params">(<span class="keyword">int</span> rowIndex)</span></span>&#123;</span><br><span class="line">    <span class="function">vector&lt;<span class="keyword">int</span>&gt; <span class="title">row</span><span class="params">(rowIndex+<span class="number">1</span>)</span></span>;</span><br><span class="line">    row[<span class="number">0</span>] = <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;rowIndex;++i)&#123;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=i;j&gt;<span class="number">0</span>;--j)</span><br><span class="line">            row[j]+=row[j<span class="number">-1</span>];</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>方法二：线性递推<br>$$<br>C^m_n=\frac{n!}{m!(n-m)!}\<br>杨辉三角每一行即为&lt;C_n^0,…,C_n^n&gt;\<br>通过公式C^m_n=C^{m-1}_n\cdot\frac{n-m+1}{m}可以得到序列的值<br>$$</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">vector&lt;<span class="keyword">int</span>&gt; <span class="title">getRow</span><span class="params">(<span class="keyword">int</span> rowIndex)</span></span>&#123;</span><br><span class="line">    <span class="function">vector&lt;<span class="keyword">int</span>&gt; <span class="title">row</span><span class="params">(rowIndex + <span class="number">1</span>)</span></span>;</span><br><span class="line">    row[<span class="number">0</span>]=<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;rowIndex;++i)&#123;</span><br><span class="line">        row[i] = <span class="number">1LL</span>*row[i<span class="number">-1</span>]*(rowIndex-i+<span class="number">1</span>)/i;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> row;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h4 id="杨辉三角II"><a href="#杨辉三角II" class="headerlink" title="杨辉三角II"></a><a href="https://leetcode-cn.com/problems/pascals-triangle-ii/">杨辉三角II</a></h4><p><strong>方法一：滚动数组</strong></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function">vector&lt;<span class="keyword">int</span>&gt; <span class="title">getRow</span><span class="params">(<span class="keyword">int</span> rowIndex)</span> </span>&#123;</span><br><span class="line">        vector&lt;<span class="keyword">int</span>&gt; pre, cur;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt;= rowIndex; ++i) &#123;</span><br><span class="line">            cur.<span class="built_in">resize</span>(i + <span class="number">1</span>);</span><br><span class="line">            cur[<span class="number">0</span>] = cur[i] = <span class="number">1</span>;</span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> j = <span class="number">1</span>; j &lt; i; ++j) &#123;</span><br><span class="line">                cur[j] = pre[j - <span class="number">1</span>] + pre[j];</span><br><span class="line">            &#125;</span><br><span class="line">            pre = cur;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> pre;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure><p>单数组优化</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">vector&lt;<span class="keyword">int</span>&gt; <span class="title">getRow</span><span class="params">(<span class="keyword">int</span> rowIndex)</span></span>&#123;</span><br><span class="line">    <span class="function">vector&lt;<span class="keyword">int</span>&gt; <span class="title">row</span><span class="params">(rowIndex+<span class="number">1</span>)</span></span>;</span><br><span class="line">    row[<span class="number">0</span>] = <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;rowIndex;++i)&#123;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=i;j&gt;<span class="number">0</span>;--j)</span><br><span class="line">            row[j]+=row[j<span class="number">-1</span>];</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>方法二：线性递推<br>$$<br>C^m_n=\frac{n!}{m!(n-m)!}\<br>杨辉三角每一行即为&lt;C_n^0,…,C_n^n&gt;\<br>通过公式C^m_n=C^{m-1}_n\cdot\frac{n-m+1}{m}可以得到序列的值<br>$$</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">vector&lt;<span class="keyword">int</span>&gt; <span class="title">getRow</span><span class="params">(<span class="keyword">int</span> rowIndex)</span></span>&#123;</span><br><span class="line">    <span class="function">vector&lt;<span class="keyword">int</span>&gt; <span class="title">row</span><span class="params">(rowIndex + <span class="number">1</span>)</span></span>;</span><br><span class="line">    row[<span class="number">0</span>]=<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;rowIndex;++i)&#123;</span><br><span class="line">        row[i] = <span class="number">1LL</span>*row[i<span class="number">-1</span>]*(rowIndex-i+<span class="number">1</span>)/i;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> row;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
     
     
       
       
-    <summary type="html">&lt;h4 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;a href=&quot;www.//https://okaz1999.github.io/&quot;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;方法一：滚动数组&lt;/strong&gt;&lt;/p&gt;
-</summary>
+    <summary type="html">&lt;h4 id=&quot;杨辉三角II&quot;&gt;&lt;a href=&quot;#杨辉三角II&quot; class=&quot;headerlink&quot; title=&quot;杨辉三角II&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/pascals-triangle-ii/&quot;&gt;杨辉三角</summary>
       
     
     
@@ -96,15 +415,14 @@
     <link href="www://example.com/2021/08/05/9-杨辉三角/"/>
     <id>www://example.com/2021/08/05/9-杨辉三角/</id>
     <published>2021-08-05T02:42:04.000Z</published>
-    <updated>2021-08-06T01:53:35.102Z</updated>
+    <updated>2021-08-07T01:51:29.832Z</updated>
     
-    <content type="html"><![CDATA[<h4 id=""><a href="#" class="headerlink" title=""></a><a href="www.//https://okaz1999.github.io/"></a></h4><p><strong>方法一：</strong></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">vector&lt;vector&lt;<span class="keyword">int</span>&gt;&gt;<span class="built_in">generate</span>(<span class="keyword">int</span> numRows)&#123;</span><br><span class="line">    vector&lt;vector&lt;<span class="keyword">int</span>&gt;&gt; <span class="built_in">ret</span>(numRows);</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;numRows;++i)&#123;</span><br><span class="line">        ret[i].<span class="built_in">resize</span>(i+<span class="number">1</span>);</span><br><span class="line">        ret[i][<span class="number">0</span>]=ret[i][i]=<span class="number">1</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;i;++j)&#123;</span><br><span class="line">            ret[i][j] = ret[i<span class="number">-1</span>][j]+ret[i<span class="number">-1</span>][j<span class="number">-1</span>]</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> ret;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h4 id="杨辉三角"><a href="#杨辉三角" class="headerlink" title="杨辉三角"></a><a href="https://leetcode-cn.com/problems/pascals-triangle/">杨辉三角</a></h4><p><strong>方法一：</strong></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">vector&lt;vector&lt;<span class="keyword">int</span>&gt;&gt;<span class="built_in">generate</span>(<span class="keyword">int</span> numRows)&#123;</span><br><span class="line">    vector&lt;vector&lt;<span class="keyword">int</span>&gt;&gt; <span class="built_in">ret</span>(numRows);</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;numRows;++i)&#123;</span><br><span class="line">        ret[i].<span class="built_in">resize</span>(i+<span class="number">1</span>);</span><br><span class="line">        ret[i][<span class="number">0</span>]=ret[i][i]=<span class="number">1</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;i;++j)&#123;</span><br><span class="line">            ret[i][j] = ret[i<span class="number">-1</span>][j]+ret[i<span class="number">-1</span>][j<span class="number">-1</span>]</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> ret;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
     
     
       
       
-    <summary type="html">&lt;h4 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;a href=&quot;www.//https://okaz1999.github.io/&quot;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;方法一：&lt;/strong&gt;&lt;/p&gt;
-&lt;fig</summary>
+    <summary type="html">&lt;h4 id=&quot;杨辉三角&quot;&gt;&lt;a href=&quot;#杨辉三角&quot; class=&quot;headerlink&quot; title=&quot;杨辉三角&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/pascals-triangle/&quot;&gt;杨辉三角&lt;/a&gt;&lt;/h4&gt;</summary>
       
     
     
@@ -121,15 +439,14 @@
     <link href="www://example.com/2021/08/05/8-总路径总和/"/>
     <id>www://example.com/2021/08/05/8-总路径总和/</id>
     <published>2021-08-05T02:41:49.000Z</published>
-    <updated>2021-08-06T01:46:31.968Z</updated>
+    <updated>2021-08-07T01:50:55.454Z</updated>
     
-    <content type="html"><![CDATA[<h4 id=""><a href="#" class="headerlink" title=""></a><a href="www.//https://okaz1999.github.io/"></a></h4><p><strong>方法一：</strong></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">hasPathSum</span><span class="params">(TreeNode *root, <span class="keyword">int</span> sum)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(!root)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    queue&lt;TreeNode*&gt; queue_node;</span><br><span class="line">    queue&lt;<span class="keyword">int</span>&gt; que_val;</span><br><span class="line">    que_node.<span class="built_in">push</span>(root);</span><br><span class="line">    que_val.<span class="built_in">pop</span>(root-&gt;val);</span><br><span class="line">    <span class="keyword">while</span>(!que_node.<span class="built_in">empty</span>())&#123;</span><br><span class="line">        TreeNode *now = que_node.<span class="built_in">front</span>();</span><br><span class="line">        <span class="keyword">int</span> temp = que_val.<span class="built_in">front</span>();</span><br><span class="line">        que_node.<span class="built_in">pop</span>();</span><br><span class="line">        que_val.<span class="built_in">pop</span>();</span><br><span class="line">        <span class="keyword">if</span>(!now-&gt;left &amp;&amp; !now-&gt;right)&#123;</span><br><span class="line">            <span class="keyword">if</span>(temp == sum)</span><br><span class="line">                <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">            <span class="keyword">continue</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span>(!now-&gt;left)&#123;</span><br><span class="line">            que_node.<span class="built_in">push</span>(now-&gt;left);</span><br><span class="line">            que_val.<span class="built_in">push</span>(now-&gt;left-&gt;val + temp);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span>(!now-&gt;right)&#123;</span><br><span class="line">            que_node.<span class="built_in">push</span>(now-&gt;right);</span><br><span class="line">            que_val.<span class="built_in">push</span>(now-&gt;right-&gt;val + temp);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>方法二</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">hasPathSum</span><span class="params">(TreeNode *root, <span class="keyword">int</span> sum)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(!root)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    <span class="keyword">if</span>(!root-&gt;left &amp;&amp; !root-&gt;right)</span><br><span class="line">        <span class="keyword">return</span> sum == root-&gt;val;</span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">hasPathSum</span>(root-&gt;left,sum-root-&gt;val) ||</span><br><span class="line">        <span class="built_in">hasPathSum</span>(root-&gt;right,sum-root-&gt;val);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h4 id="总路径总和"><a href="#总路径总和" class="headerlink" title="总路径总和"></a><a href="https://leetcode-cn.com/problems/path-sum/">总路径总和</a></h4><p><strong>方法一：</strong></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">hasPathSum</span><span class="params">(TreeNode *root, <span class="keyword">int</span> sum)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(!root)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    queue&lt;TreeNode*&gt; queue_node;</span><br><span class="line">    queue&lt;<span class="keyword">int</span>&gt; que_val;</span><br><span class="line">    que_node.<span class="built_in">push</span>(root);</span><br><span class="line">    que_val.<span class="built_in">pop</span>(root-&gt;val);</span><br><span class="line">    <span class="keyword">while</span>(!que_node.<span class="built_in">empty</span>())&#123;</span><br><span class="line">        TreeNode *now = que_node.<span class="built_in">front</span>();</span><br><span class="line">        <span class="keyword">int</span> temp = que_val.<span class="built_in">front</span>();</span><br><span class="line">        que_node.<span class="built_in">pop</span>();</span><br><span class="line">        que_val.<span class="built_in">pop</span>();</span><br><span class="line">        <span class="keyword">if</span>(!now-&gt;left &amp;&amp; !now-&gt;right)&#123;</span><br><span class="line">            <span class="keyword">if</span>(temp == sum)</span><br><span class="line">                <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">            <span class="keyword">continue</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span>(!now-&gt;left)&#123;</span><br><span class="line">            que_node.<span class="built_in">push</span>(now-&gt;left);</span><br><span class="line">            que_val.<span class="built_in">push</span>(now-&gt;left-&gt;val + temp);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span>(!now-&gt;right)&#123;</span><br><span class="line">            que_node.<span class="built_in">push</span>(now-&gt;right);</span><br><span class="line">            que_val.<span class="built_in">push</span>(now-&gt;right-&gt;val + temp);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>方法二</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">hasPathSum</span><span class="params">(TreeNode *root, <span class="keyword">int</span> sum)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(!root)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    <span class="keyword">if</span>(!root-&gt;left &amp;&amp; !root-&gt;right)</span><br><span class="line">        <span class="keyword">return</span> sum == root-&gt;val;</span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">hasPathSum</span>(root-&gt;left,sum-root-&gt;val) ||</span><br><span class="line">        <span class="built_in">hasPathSum</span>(root-&gt;right,sum-root-&gt;val);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
     
     
       
       
-    <summary type="html">&lt;h4 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;a href=&quot;www.//https://okaz1999.github.io/&quot;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;方法一：&lt;/strong&gt;&lt;/p&gt;
-&lt;fig</summary>
+    <summary type="html">&lt;h4 id=&quot;总路径总和&quot;&gt;&lt;a href=&quot;#总路径总和&quot; class=&quot;headerlink&quot; title=&quot;总路径总和&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/path-sum/&quot;&gt;总路径总和&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;</summary>
       
     
     
@@ -186,179 +503,6 @@
     <category term="LeetCode" scheme="www://example.com/tags/LeetCode/"/>
     
     <category term="Easy" scheme="www://example.com/tags/Easy/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>5-有序数组转二叉树</title>
-    <link href="www://example.com/2021/08/05/5-有序数组转二叉树/"/>
-    <id>www://example.com/2021/08/05/5-有序数组转二叉树/</id>
-    <published>2021-08-05T02:14:14.000Z</published>
-    <updated>2021-08-05T02:20:07.974Z</updated>
-    
-    <content type="html"><![CDATA[<h4 id="有序数组转二叉树"><a href="#有序数组转二叉树" class="headerlink" title="有序数组转二叉树"></a><a href="https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/">有序数组转二叉树</a></h4><p><strong>方法一：选择中间位置左边数字</strong></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">TreeNode* <span class="title">sortArrayToBST</span><span class="params">(vector&lt;<span class="keyword">int</span>&gt;&amp; nums)</span></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">helper</span>(nums,<span class="number">0</span>,nums.<span class="built_in">size</span>()<span class="number">-1</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="function">TreeNode* <span class="title">helper</span><span class="params">(vector&lt;<span class="keyword">int</span>&gt;&amp; nums, <span class="keyword">int</span> left, <span class="keyword">int</span> right)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(left&gt;right)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">nullptr</span>;</span><br><span class="line">    <span class="keyword">int</span> mid = (left+right)/<span class="number">2</span>;</span><br><span class="line">    TreeNode* root = <span class="keyword">new</span> <span class="built_in">TreeNode</span>(nums[mid]);</span><br><span class="line">    root-&gt;left = <span class="built_in">helper</span>(nums,left,mid<span class="number">-1</span>);</span><br><span class="line">    root-&gt;right = <span class="built_in">helper</span>(nums,mid+<span class="number">1.</span>right);</span><br><span class="line">    <span class="keyword">return</span> root;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h4 id=&quot;有序数组转二叉树&quot;&gt;&lt;a href=&quot;#有序数组转二叉树&quot; class=&quot;headerlink&quot; title=&quot;有序数组转二叉树&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/convert-sorted-array</summary>
-      
-    
-    
-    
-    
-    <category term="LeetCode" scheme="www://example.com/tags/LeetCode/"/>
-    
-    <category term="Easy" scheme="www://example.com/tags/Easy/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>4-对称二叉树</title>
-    <link href="www://example.com/2021/08/05/4-对称二叉树/"/>
-    <id>www://example.com/2021/08/05/4-对称二叉树/</id>
-    <published>2021-08-05T01:50:21.000Z</published>
-    <updated>2021-08-05T02:02:57.700Z</updated>
-    
-    <content type="html"><![CDATA[<p><a href="https://leetcode-cn.com/problems/symmetric-tree/">对称二叉树</a></p><p><strong>方法一：递归</strong></p><p>时间复杂度O(n)，空间复杂度O(n)</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">check</span><span class="params">(TreeNode *p, TreeNode *q)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(!p&amp;&amp;!q) <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">    <span class="keyword">if</span>(!p||!q) <span class="keyword">return</span> flase;</span><br><span class="line">    <span class="keyword">return</span> p-&gt;val == q-&gt;val &amp;&amp; <span class="built_in">check</span>(p-&gt;left,q-&gt;right) &amp;&amp; <span class="built_in">check</span>(p-&gt;right,q-&gt;left);</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">isSymmetric</span><span class="params">(TreeNode *root)</span></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">check</span>(root,root);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><strong>方法二：迭代</strong></p><p>时间复杂度O(n)，空间复杂度O(n)</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">check</span><span class="params">(TreeNode *u, TreeNode *v)</span></span>&#123;</span><br><span class="line">queue&lt;TreeNode*&gt; q;</span><br><span class="line">    q.<span class="built_in">push</span>(u);</span><br><span class="line">    q.<span class="built_in">push</span>(v);</span><br><span class="line">    <span class="keyword">while</span>(!q.<span class="built_in">empty</span>())&#123;</span><br><span class="line">        u = q.<span class="built_in">front</span>();</span><br><span class="line">        q.<span class="built_in">pop</span>();</span><br><span class="line">        v = q.<span class="built_in">front</span>();</span><br><span class="line">        q.<span class="built_in">pop</span>();</span><br><span class="line">        <span class="keyword">if</span>(!u&amp;&amp;!v) <span class="keyword">continue</span>;</span><br><span class="line">        <span class="keyword">if</span> ((!u || !v) || (u-&gt;val != v-&gt;val)) <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">q.<span class="built_in">push</span>(u-&gt;left);</span><br><span class="line">        q.<span class="built_in">push</span>(v-&gt;right);</span><br><span class="line">        </span><br><span class="line">        q.<span class="built_in">push</span>(u-&gt;right);</span><br><span class="line">        q.<span class="built_in">push</span>(v-&gt;left);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">isSymmetric</span><span class="params">(TreeNode *root)</span></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">check</span>(root,root);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h4 id=""><a href="#" class="headerlink" title=""></a></h4>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/symmetric-tree/&quot;&gt;对称二叉树&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;方法一：递归&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;时间复杂度O(n)，空间复杂度O(n)&lt;/p&gt;
-&lt;figur</summary>
-      
-    
-    
-    
-    
-    <category term="LeetCode" scheme="www://example.com/tags/LeetCode/"/>
-    
-    <category term="Easy" scheme="www://example.com/tags/Easy/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>3-相同的树</title>
-    <link href="www://example.com/2021/08/05/3-相同的树/"/>
-    <id>www://example.com/2021/08/05/3-相同的树/</id>
-    <published>2021-08-05T01:21:14.000Z</published>
-    <updated>2021-08-05T01:47:29.402Z</updated>
-    
-    <content type="html"><![CDATA[<h4 id="相同的树"><a href="#相同的树" class="headerlink" title="相同的树"></a><a href="https://leetcode-cn.com/problems/same-tree/">相同的树</a></h4><p>给你两棵二叉树的根节点 <code>p</code> 和 <code>q</code> ，编写一个函数来检验这两棵树是否相同。</p><p><strong>方法一：深度优先搜索：</strong></p><p>时间复杂度O(min(m,n))，空间复杂度O(min(m,n))</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">isSameTree</span><span class="params">(TreeNode* p, TreeNode* q)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(p==<span class="literal">nullptr</span>&amp;&amp;q==<span class="literal">nullptr</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span>(p==<span class="literal">nullptr</span>||q==<span class="literal">nullptr</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span>(p-&gt;val!=q-&gt;val)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">        <span class="keyword">return</span> <span class="built_in">isSameTree</span>(p-&gt;left,q-&gt;left)&amp;&amp;<span class="built_in">isSameTree</span>(p-&gt;right,q-&gt;right);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><strong>方法二：广度优先搜索：</strong></p><p>时间复杂度O(min(m,n))，空间复杂度O(min(m,n))</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">isSameTree</span><span class="params">(TreeNode*p, TreeNode* q)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(p == <span class="literal">nullptr</span> &amp;&amp; q == <span class="literal">nullptr</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span>(p == <span class="literal">nullptr</span> || q == <span class="literal">nullptr</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    queue&lt;TreeNode*&gt; queue1, queue2;</span><br><span class="line">    queue1.<span class="built_in">push</span>(p);</span><br><span class="line">    queue2.<span class="built_in">push</span>(q);</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">while</span>(!queue1.<span class="built_in">empty</span>()&amp;&amp;!queue2.<span class="built_in">empty</span>())&#123;</span><br><span class="line">        <span class="keyword">auto</span> node1 = queue1.<span class="built_in">front</span>();</span><br><span class="line">        queue1.<span class="built_in">pop</span>();</span><br><span class="line">        <span class="keyword">auto</span> node2 = queue2.<span class="built_in">front</span>();</span><br><span class="line">        queue2.<span class="built_in">pop</span>();</span><br><span class="line">        <span class="keyword">if</span>(node1-&gt;val!=node2-&gt;val)</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">        <span class="keyword">auto</span> left1 = node1-&gt;left, right1 = node1-&gt;right, left2 = node2-&gt;left, right2 = node2-&gt;right;</span><br><span class="line">        <span class="keyword">if</span> ((left1 == <span class="literal">nullptr</span>) ^ (left2 == <span class="literal">nullptr</span>))</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">        <span class="keyword">if</span> ((right1 == <span class="literal">nullptr</span>) ^ (right2 == <span class="literal">nullptr</span>))</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">        <span class="keyword">if</span>(left1!=<span class="literal">nullptr</span>)</span><br><span class="line">            queue1.<span class="built_in">push</span>(left1);</span><br><span class="line">        <span class="keyword">if</span>(right1!=<span class="literal">nullptr</span>)</span><br><span class="line">            queue1.<span class="built_in">push</span>(right1);</span><br><span class="line">        <span class="keyword">if</span>(left2!=<span class="literal">nullptr</span>)</span><br><span class="line">            queue2.<span class="built_in">push</span>(left1);</span><br><span class="line">        <span class="keyword">if</span>(right2!=<span class="literal">nullptr</span>)</span><br><span class="line">            queue2.<span class="built_in">push</span>(right1);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> queue1.<span class="built_in">empty</span>()&amp;&amp;queue2.<span class="built_in">empty</span>();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h4 id=&quot;相同的树&quot;&gt;&lt;a href=&quot;#相同的树&quot; class=&quot;headerlink&quot; title=&quot;相同的树&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/same-tree/&quot;&gt;相同的树&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;给你两棵</summary>
-      
-    
-    
-    
-    
-    <category term="LeetCode" scheme="www://example.com/tags/LeetCode/"/>
-    
-    <category term="Easy" scheme="www://example.com/tags/Easy/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2-二叉树的中序遍历</title>
-    <link href="www://example.com/2021/08/04/2-二叉树的中序遍历/"/>
-    <id>www://example.com/2021/08/04/2-二叉树的中序遍历/</id>
-    <published>2021-08-04T02:16:34.000Z</published>
-    <updated>2021-08-04T03:12:19.485Z</updated>
-    
-    <content type="html"><![CDATA[<h4 id="二叉树的中序遍历"><a href="#二叉树的中序遍历" class="headerlink" title="二叉树的中序遍历"></a><a href="https://leetcode-cn.com/problems/binary-tree-inorder-traversal/">二叉树的中序遍历</a></h4><p>给定一个二叉树的根节点 <code>root</code> ，返回它的 <strong>中序</strong> 遍历。</p><p><strong>方法一：递归</strong></p><p>时间复杂度O(n)，空间复杂度O(n)</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">inorder</span><span class="params">(TreeNode* root, vector&lt;<span class="keyword">int</span>&gt;&amp; res)</span></span>&#123;</span><br><span class="line"><span class="keyword">if</span>(!root)&#123;</span><br><span class="line"><span class="keyword">return</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="built_in">inorder</span>(root-&gt;left,res);</span><br><span class="line">res.<span class="built_in">push_back</span>(root-&gt;val);</span><br><span class="line"><span class="built_in">inorder</span>(root-&gt;right,res);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">vector&lt;<span class="keyword">int</span>&gt; <span class="title">inorderTraversal</span><span class="params">(TreeNode* root)</span></span>&#123;</span><br><span class="line">vector&lt;<span class="keyword">int</span>&gt; res;</span><br><span class="line"><span class="built_in">inorder</span>(root,res);</span><br><span class="line"><span class="keyword">return</span> res;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><strong>方法二：迭代</strong></p><p>时间复杂度O(n)，空间复杂度O(n)</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">vector&lt;<span class="keyword">int</span>&gt; <span class="title">inorderTraversal</span><span class="params">(TreeNode* root)</span></span>&#123;</span><br><span class="line">vector&lt;<span class="keyword">int</span>&gt; res;</span><br><span class="line">    stack&lt;TreeNode*&gt; stk;</span><br><span class="line">    <span class="keyword">while</span>(root!=<span class="literal">nullptr</span>||!stk.<span class="built_in">empty</span>())&#123;</span><br><span class="line">        <span class="keyword">while</span>(root!=<span class="literal">nullptr</span>)&#123;</span><br><span class="line">            stk.<span class="built_in">push</span>(root);</span><br><span class="line">            root=root-&gt;left;</span><br><span class="line">        &#125;</span><br><span class="line">        root = stk.<span class="built_in">top</span>();</span><br><span class="line">        stk.<span class="built_in">pop</span>();</span><br><span class="line">        res.<span class="built_in">push_back</span>(root-&gt;val);</span><br><span class="line">        root = root-&gt;right;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> res;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><strong>方法三：Morris中序遍历</strong></p><p>时间复杂度O(n)，空间复杂度O(1)</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">vector&lt;<span class="keyword">int</span>&gt; <span class="title">inorderTraversal</span><span class="params">(TreeNode* root)</span></span>&#123;</span><br><span class="line">    vector&lt;<span class="keyword">int</span>&gt; res;</span><br><span class="line">    TreeNode *predecessor = <span class="literal">nullptr</span>;</span><br><span class="line">    <span class="keyword">while</span>(root!=<span class="literal">nullptr</span>)&#123;</span><br><span class="line">        <span class="keyword">if</span>(root-&gt;left!=<span class="literal">nullptr</span>)&#123;</span><br><span class="line">            predecessor = root-&gt;left;</span><br><span class="line">            <span class="keyword">while</span>(predecessor-&gt;right!=<span class="literal">nullptr</span>&amp;&amp;predecessor-&gt;right!=root)&#123;</span><br><span class="line">                predecessor=predecessor-&gt;right;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span>(predecessor-&gt;right == <span class="literal">nullptr</span>)&#123;</span><br><span class="line">            predecessor-&gt;right = root;</span><br><span class="line">            root = root-&gt;left;</span><br><span class="line">        &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">            res.<span class="built_in">push_back</span>(root-&gt;val);</span><br><span class="line">            predecessor-&gt;rigjt=<span class="literal">nullptr</span>;</span><br><span class="line">            root=root-&gt;right;</span><br><span class="line">        &#125;</span><br><span class="line">        &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">            res.<span class="built_in">push_back</span>(root-&gt;val);</span><br><span class="line">            root=root-&gt;right;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> res;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h4 id=&quot;二叉树的中序遍历&quot;&gt;&lt;a href=&quot;#二叉树的中序遍历&quot; class=&quot;headerlink&quot; title=&quot;二叉树的中序遍历&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/binary-tree-inorder-</summary>
-      
-    
-    
-    
-    
-    <category term="LeetCode" scheme="www://example.com/tags/LeetCode/"/>
-    
-    <category term="Easy" scheme="www://example.com/tags/Easy/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>1.x的平方根</title>
-    <link href="www://example.com/2021/08/03/1-x的平方根/"/>
-    <id>www://example.com/2021/08/03/1-x的平方根/</id>
-    <published>2021-08-03T02:57:01.000Z</published>
-    <updated>2021-08-04T03:21:42.105Z</updated>
-    
-    <content type="html"><![CDATA[<h4 id="x-的平方根"><a href="#x-的平方根" class="headerlink" title="x 的平方根"></a><a href="https://leetcode-cn.com/problems/sqrtx/">x 的平方根</a></h4><p>实现 int sqrt(int x) 函数。<br>计算并返回 x 的平方根，其中 x 是非负整数。<br>由于返回类型是整数，结果只保留整数的部分，小数部分将被舍去。</p><p><strong>方法一：袖珍计算器</strong><br>$$<br>\sqrt{x}=x^{\frac{1}{2}}=(e^{\ln x})^{\frac{1}{2}}=e^{\frac{\ln x}{2}}<br>$$</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">mySqrt</span><span class="params">(<span class="keyword">int</span> x)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(x == <span class="number">0</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">int</span> ans = <span class="built_in">exp</span>(<span class="number">0.5</span>*<span class="built_in">log</span>(x));</span><br><span class="line">    <span class="keyword">return</span> ((<span class="keyword">long</span> <span class="keyword">long</span>)(ans+<span class="number">1</span>)*(ans+<span class="number">1</span>)&lt;=x?ans+<span class="number">1</span>:ans);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><strong>方法二：二分查找</strong></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">mySqrt</span><span class="params">(<span class="keyword">int</span> x)</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> l = <span class="number">0</span>, r = x, ans = <span class="number">-1</span>;</span><br><span class="line">    <span class="keyword">while</span>(l &lt;= r)&#123;</span><br><span class="line">        <span class="keyword">int</span> mid = l+(r-l)/<span class="number">2</span>;</span><br><span class="line">        <span class="keyword">if</span>((<span class="keyword">long</span> <span class="keyword">long</span>)mid*mid&lt;=x)&#123;</span><br><span class="line">            ans = mid;</span><br><span class="line">            l=mid+<span class="number">1</span>;</span><br><span class="line">        &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">            r=mid<span class="number">-1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> ans;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><strong>方法三：牛顿迭代法</strong></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">mySqrt</span><span class="params">(<span class="keyword">int</span> x)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(x == <span class="number">0</span>)&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">double</span> C=x,x0=x;</span><br><span class="line">    <span class="keyword">while</span>(<span class="literal">true</span>)&#123;</span><br><span class="line">        <span class="keyword">double</span> xi=<span class="number">0.5</span>*(x0+C/x0);</span><br><span class="line">        <span class="keyword">if</span>(<span class="built_in">fabs</span>(x0-xi)&lt;<span class="number">1e-7</span>)&#123;</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        x0=xi;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="built_in"><span class="keyword">int</span></span>(x0);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h4 id=&quot;x-的平方根&quot;&gt;&lt;a href=&quot;#x-的平方根&quot; class=&quot;headerlink&quot; title=&quot;x 的平方根&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/sqrtx/&quot;&gt;x 的平方根&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;</summary>
-      
-    
-    
-    
-    
-    <category term="LeetCode" scheme="www://example.com/tags/LeetCode/"/>
-    
-    <category term="Easy" scheme="www://example.com/tags/Easy/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>面试</title>
-    <link href="www://example.com/2021/08/03/面试/"/>
-    <id>www://example.com/2021/08/03/面试/</id>
-    <published>2021-08-03T01:53:39.000Z</published>
-    <updated>2021-08-04T03:12:40.865Z</updated>
-    
-    <content type="html"><![CDATA[<h4 id="1-三次握手，四次挥手"><a href="#1-三次握手，四次挥手" class="headerlink" title="1. 三次握手，四次挥手"></a><strong>1. 三次握手，四次挥手</strong></h4><p><strong>第一步：</strong>客户端向服务器发送给TCP报文，SYN置为1，SEQ设置为一个随机数字,记为seq1<br><strong>第二步：</strong>服务器收到TCP报文后，发送TCP报文回复，SYN置为1，ACK置为1，SEQ设置为另一个随机数，记为seq2，SYNACK设置为seq1+1<br><strong>第三步：</strong>客户端收到报文后，返回TCP报文，SYN置为0，ACK置为1，SEQ置为seq1+1，ACK设置为seq2+1</p><p><em>为什么是三次握手而不是两次握手？</em><br>第三次握手是客户端告诉服务器，自己已经收到了第二条报文，可以开始传输数据。若没有第三次握手，服务器将无法保证客户端接收到了自己的SYNACK报文段，若此时SYNACK报文段丢失，客户端不知道服务器的初始序号，将无法处理之后到达客户端的数据</p><p><strong>第一步：</strong>客户端发送断开指令，即发送一个FIN置1的TCP报文<br><strong>第二步：</strong>服务器返回确认报文，ACK置1<br><strong>第三步：</strong>服务器发送TCP报文，FIN置1<br><strong>第四步：</strong>客户端接受报文，产生确认报文发送给服务器，服务器收到报文后，释放TCP连接相关资源，而客户端等待一段时间后，再释放资源</p><p><em>客户端为什么要等待一段时间再释放资源？</em></p><p>客户端接收到服务器发送的FIN报文后（第三次挥手），会回送一条确认报文（第四次挥手），但是，客户端并不知道这条确认报文是否可以顺利到达服务器。<br>TCP四次挥手完成后，理论上已经断开了连接，但是这不代表之前通过这条连接发送的所有数据都处理完毕了，有些可能还在网络中传输。</p><p><em>断开连接为什么需要四次挥手？</em><br>原因就是：TCP连接是全双工的。</p><h4 id="2-操作系统通信"><a href="#2-操作系统通信" class="headerlink" title="2.操作系统通信"></a><strong>2.操作系统通信</strong></h4><p><strong>管道：</strong>管道类似于一种特殊的文件(并不是)，它存在于内存中，进程可以对它进行读写，它提供流控制，保证进程的正确读写，即管道为空时读进程会阻塞，管道为满时写进程会阻塞，以此实现进程之间的通信。</p><p><strong>消息队列：</strong>类似于用链表的结构存储消息。</p><p><strong>套接字：</strong>套接字可用于不同机器间的进程通信，即可用于网络之间的进程通信。</p><p><strong>信号量：</strong> 信号量用于实现进程间的互斥与同步，而不是用于存储进程间通信数据。它是一个计数器，用来控制多个进程对共享资源的访问，常作为一种锁机制，实现进程间的同步和互斥</p><p><strong>共享内存：</strong>操作系统建立一块共享内存，并将其映射到参与通信的每个进程的地址空间上，进程就可以直接对这块共享内存进行读写。</p><h4 id="3-设计模式"><a href="#3-设计模式" class="headerlink" title="3.设计模式"></a><strong>3.设计模式</strong></h4><p>pass</p><h4 id="4-多态性"><a href="#4-多态性" class="headerlink" title="4.多态性"></a><strong>4.多态性</strong></h4><p>多态性是指用一个名字定义不同的函数，这些函数执行不同但又类似的操作，这样就可以用同一个函数名调用不同内容的函数</p><p>静态多态性：函数重载和运算符重载</p><p>动态多态性：虚函数与类继承</p><h4 id="5-能不能在构造函数和析构函数中用虚函数，会有什么后果"><a href="#5-能不能在构造函数和析构函数中用虚函数，会有什么后果" class="headerlink" title="5. 能不能在构造函数和析构函数中用虚函数，会有什么后果"></a><strong>5. 能不能在构造函数和析构函数中用虚函数，会有什么后果</strong></h4><p>可以，但是此时的虚函数和普通函数没有区别了。</p><p>6.new和delete和C语言里面的free和malloc的区别？</p><p>7.指针和引用的区别？</p><p>8.类里面的函数，每个实例都会创建一个函数吗，如果不，是怎么寻找的？</p><p>9.内存泄漏是什么，还有右值引用？</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h4 id=&quot;1-三次握手，四次挥手&quot;&gt;&lt;a href=&quot;#1-三次握手，四次挥手&quot; class=&quot;headerlink&quot; title=&quot;1. 三次握手，四次挥手&quot;&gt;&lt;/a&gt;&lt;strong&gt;1. 三次握手，四次挥手&lt;/strong&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;第一步：&lt;/s</summary>
-      
-    
-    
-    
-    
-    <category term="Interview" scheme="www://example.com/tags/Interview/"/>
-    
-    <category term="HUAWEI" scheme="www://example.com/tags/HUAWEI/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Introduction</title>
-    <link href="www://example.com/2021/07/15/Introduction/"/>
-    <id>www://example.com/2021/07/15/Introduction/</id>
-    <published>2021-07-15T01:47:24.000Z</published>
-    <updated>2021-07-20T07:05:38.597Z</updated>
-    
-    <content type="html"><![CDATA[<p>这是我的个人博客，欢迎！</p><p>哈哈哈</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;这是我的个人博客，欢迎！&lt;/p&gt;
-&lt;p&gt;哈哈哈&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    <category term="Introduction" scheme="www://example.com/categories/Introduction/"/>
-    
-    
-    <category term="Introduction" scheme="www://example.com/tags/Introduction/"/>
     
   </entry>
   
